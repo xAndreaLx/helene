@@ -12,6 +12,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.0.2"
+    "@astrojs/svelte": "^8.0.0",
+    "@tailwindcss/vite": "^4.2.1",
+    "astro": "^6.0.2",
+    "svelte": "^5.53.9",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3"
   }
 }
