@@ -1,0 +1,59 @@
+---
+// src/layouts/MainLayout.astro
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html> 
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <title>{title} | Règne Végétal</title>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">🌿 Règne Végétal</div>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/flore">Flore</a></li>
+                <li><a href="/faune">Faune</a></li>
+                <li><a href="/poesie">Poésie</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <slot /> <!-- C'est ici que le contenu de tes pages sera injecté -->
+        </main>
+
+        <style>
+            nav {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 1rem 2rem;
+                background: #2d3436;
+                color: white;
+            }
+            ul {
+                display: flex;
+                list-style: none;
+                gap: 20px;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            a:hover {
+                color: #55efc4;
+            }
+            main {
+                padding: 2rem;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        </style>
+    </body>
+</html>
+

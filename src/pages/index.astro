@@ -1,6 +1,6 @@
 ---
 import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import MainLayout from '../layouts/MainLayout.astro';
 import LikeButton from '../components/LikeButton.svelte';
 
 
@@ -8,9 +8,12 @@ import LikeButton from '../components/LikeButton.svelte';
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
 	<Welcome />
 <h1>Bienvenue sur mon herbier</h1>
 <!-- Le "client:load" est CRUCIAL : il dit à Astro d'activer le JS de Svelte -->
 <LikeButton client:load />
-</Layout>
+
+<MainLayout title="Accueil">
+    <h1>Bienvenue sur mon herbier numérique</h1>
+    <p>Exploration de la flore, de la faune et de la poésie.</p>
+</MainLayout>
