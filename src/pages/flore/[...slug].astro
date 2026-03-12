@@ -1,0 +1,64 @@
+---
+// src/pages/flore/[...slug].astro
+import { Image } from 'astro:assets';
+import { getCollection, render } from 'astro:content';
+import MainLayout from '../../layouts/MainLayout.astro';
+
+export async function getStaticPaths() {
+  const floreEntries = await getCollection('flore');
+  return floreEntries.map(entry => ({
+    // On utilise entry.id qui correspond au nom du fichier
+    params: { slug: entry.id }, 
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+
+// "render" transforme le corps du Markdown en composant React/Astro
+const { Content } = await render(entry);
+---
+
+<MainLayout title={entry.data.nom_fr}>
+  <article>
+    <header>
+      <h1>{entry.data.nom_fr}</h1>
+      <p><i>{entry.data.nom_sci}</i></p>
+
+      <!-- Astro va optimiser cette image automatiquement ! -->
+      {entry.data.image_ref && (
+        <Image 
+          src={entry.data.image_ref} 
+          alt={`Illustration botanique de ${entry.data.nom_fr}`}
+          width={600} 
+          height={800}
+          class="illustration-botanique"
+        />
+      )}        
+      
+      {/* Correction ici : on utilise date_observation (avec underscore) */}
+      {entry.data.date_observation && (
+        <p>Observé le : {entry.data.date_observation.toLocaleDateString('fr-FR')}</p>
+      )}
+    </header>
+
+    <hr />
+
+    <div class="contenu-markdown">
+      {/* Si rien ne s'affiche ici, vérifie qu'il y a bien du texte APRES les --- dans ton .md */}
+      <Content />
+    </div>
+  </article>
+</MainLayout>
+
+<style>
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1 { color: #2d5a27; margin-bottom: 0; }
+  p { color: #666; }
+  .contenu-markdown { margin-top: 2rem; }
+</style>

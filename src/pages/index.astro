@@ -1,19 +1,32 @@
 ---
-import Welcome from '../components/Welcome.astro';
+// 1. On n'importe QUE ce dont on a besoin
 import MainLayout from '../layouts/MainLayout.astro';
 import LikeButton from '../components/LikeButton.svelte';
-
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import { getCollection } from 'astro:content';
+// On récupère tout ce qu'il y a dans "src/content/flore/"
+const toutesLesPlantes = await getCollection('flore');
 ---
 
-	<Welcome />
-<h1>Bienvenue sur mon herbier</h1>
-<!-- Le "client:load" est CRUCIAL : il dit à Astro d'activer le JS de Svelte -->
-<LikeButton client:load />
-
 <MainLayout title="Accueil">
+    <!-- Tout ce qui est ICI sera envoyé dans le <slot /> du Layout -->
+    
     <h1>Bienvenue sur mon herbier numérique</h1>
     <p>Exploration de la flore, de la faune et de la poésie.</p>
+    
+    <!-- Ton bouton Svelte à l'intérieur du layout -->
+    <LikeButton client:load />
+
+    <h1>Ma collection Flore</h1>
+
+  <ul>
+    {toutesLesPlantes.map(plante => (
+      <li>
+        {/* Le slug contiendra "plantes/pissenlit" */}
+        <a href={`/flore/${plante.id}`}>
+          <strong>{plante.data.nom_fr}</strong> ({plante.data.nom_sci})
+        </a>
+      </li>
+    ))}
+  </ul>
+
 </MainLayout>
