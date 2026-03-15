@@ -1,19 +1,16 @@
 ---
-nom_fr: "Berce commune"
-nom_sci: "Heracleum sphondylium"
-famille: "Apiaceae"
-sbs_niveau: 100
-couleur_fleur: ["blanc", "rose"]
-mois_floraison: [6, 7, 8, 9]
-feuilles_disposition: "alterne"
-feuilles_type: "composee"
-fleur_type: "ombelle"
-milieu: ["prairie humide", "lisière"]
-indice_H: 4
-indice_L: 3
+common_name: "Berce commune"
+latin_name: "Heracleum sphondylium"
+appareil_vegetatif:
+  tige_port: []
+  tige_section: []
+  tige_aspect: []
+  feuilles_insertion: []
+  feuilles_composition: []
+inflorescence:
+  type_structure: ["ombelle"]
 image_ref: "../../../assets/flore/heracleum_sphondylium.jpg"
 ---
-
 # La Berce commune
 
 C'est une plante massive et très robuste, beaucoup plus imposante que la carotte sauvage.

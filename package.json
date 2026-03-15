@@ -12,11 +12,18 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/node": "^10.0.1",
     "@astrojs/svelte": "^8.0.0",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^6.0.2",
+    "js-yaml": "^4.1.1",
+    "jsdom": "^27.0.1",
     "svelte": "^5.53.9",
     "tailwindcss": "^4.2.1",
     "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.5.0"
   }
 }

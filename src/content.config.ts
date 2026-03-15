@@ -1,39 +1,72 @@
-// src/content/config.ts
-import { defineCollection } from 'astro:content'; // On garde defineCollection ici
-import { z } from 'astro/zod';                   // On récupère "z" ici (le nouveau standard)
-import { glob } from 'astro/loaders';             // L'outil pour charger les fichiers
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
+import { glob } from 'astro/loaders';
 
-const flore = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/flore" }),
+const theorie = defineCollection({
+    loader: glob({ pattern: "**/*.md", base: "./src/content/flore/theorie" }),
+  // On transforme le schema en FONCTION qui reçoit { image }
   schema: ({ image }) => z.object({
-    // --- OBLIGATOIRE (les bases pour identifier la plante) ---
-    nom_fr: z.string(),
-    nom_sci: z.string(),
-
-    // --- OPTIONNEL (tout le reste peut être vide ou absent) ---
-    famille: z.string().optional(),
-    sbs_niveau: z.number().optional(),
-    
-    // Listes / Tableaux (ex: ["blanc", "rose"])
-    couleur_fleur: z.array(z.string()).optional(),
-    mois_floraison: z.array(z.number()).optional(),
-    milieu: z.array(z.string()).optional(),
-
-    // Caractéristiques botaniques
-    feuilles_disposition: z.string().optional(),
-    feuilles_type: z.string().optional(),
-    fleur_type: z.string().optional(),
-
-    // Indices écologiques
-    indice_H: z.number().optional(),
-    indice_L: z.number().optional(),
-
-    // Image de référence
-    image_ref: image().optional(),
-
-    // Lié à l'observation
-    date_observation: z.string().transform(str => new Date(str)).optional(),
+    title: z.string(),
+    categorie: z.enum(['forme_feuille', 'bord_feuille', 'nervure', 'inflorescence']),
+    // Maintenant 'image' est connu car Astro l'a passé en argument au-dessus
+    image: image(), 
+    image2: image().optional(), 
+    description: z.string(),
   }),
 });
 
-export const collections = { flore };
+const flore = defineCollection({
+  // ATTENTION : vérifie que le dossier ici est le même que dans ton API save-plant.ts
+  // Si ton API enregistre dans src/content/plantes, mets "plantes" ici.
+  loader: glob({ pattern: "**/*.md", base: "./src/content/flore/plantes" }),
+  
+  schema: ({ image }) => z.object({
+    // --- IDENTIFICATION ---
+    common_name: z.string(),
+    latin_name: z.string(),
+
+    // --- CYCLE DE VIE ---
+    cycle_de_vie: z.array(z.string()).optional(),
+
+    // --- APPAREIL VÉGÉTATIF ---
+    // On utilise z.array(z.string()) car le MultiSelect envoie des tableaux
+    appareil_vegetatif: z.object({
+      tige_port: z.array(z.string()).optional(),
+      tige_section: z.array(z.string()).optional(),
+      tige_aspect: z.array(z.string()).optional(),
+      tige_pilosite: z.array(z.string()).optional(),
+      feuilles_insertion: z.array(z.string()).optional(),
+      feuilles_composition: z.array(z.string()).optional(),
+      pilosite_feuille_dessus: z.array(z.string()).optional(),
+      pilosite_feuille_dessous: z.array(z.string()).optional(),
+    }).optional(),
+
+    // --- INFLORESCENCE ---
+    inflorescence: z.object({
+      type_structure: z.array(z.string()).optional(),
+      bractees_involucre: z.array(z.string()).optional(),
+      bractees_aspect: z.array(z.string()).optional(),
+    }).optional(),
+
+    // --- FLEUR ANATOMIE ---
+    fleur_anatomie: z.object({
+      symetrie: z.array(z.string()).optional(),
+      perianthe: z.array(z.string()).optional(),
+      nb_sepales: z.array(z.string()).optional(),
+      fusion_sepales: z.array(z.string()).optional(),
+      nb_petales: z.array(z.string()).optional(),
+      fusion_petales: z.array(z.string()).optional(),
+      nb_tepales: z.array(z.string()).optional(),
+      nb_etamines: z.array(z.string()).optional(),
+    }).optional(),
+
+    // --- IMAGES ET AUTRES ---
+    // Si tu rajoutes la gestion d'image plus tard dans le formulaire
+    image_ref: image().optional(), 
+    image_source: z.string().optional(),
+
+  }),
+});
+
+
+export const collections = { flore, theorie };

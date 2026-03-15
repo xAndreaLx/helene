@@ -1,5 +1,5 @@
 ---
-// src/layouts/MainLayout.astro
+import Toast from '../components/Toast.svelte';
 const { title } = Astro.props;
 ---
 <!DOCTYPE html> 
@@ -19,11 +19,14 @@ const { title } = Astro.props;
                 <li><a href="/faune">Faune</a></li>
                 <li><a href="/poesie">Poésie</a></li>
                 <li><a href="/about">À propos</a></li>
+                <li><a href="/admin">Admin</a></li>
+
 
             </ul>
         </nav>
 
         <main>
+            <Toast client:load />
             <slot /> <!-- C'est ici que le contenu de tes pages sera injecté -->
         </main>
 

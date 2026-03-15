@@ -1,19 +1,16 @@
 ---
-nom_fr: "Petite Ciguë"
-nom_sci: "Aethusa cynapium"
-famille: "Apiaceae"
-sbs_niveau: 300
-couleur_fleur: ["blanc"]
-mois_floraison: [6, 7, 8, 9, 10]
-feuilles_disposition: "alterne"
-feuilles_type: "composee"
-fleur_type: "ombelle"
-milieu: ["jardin", "culture", "bord de chemin"]
-indice_H: 3
-indice_L: 4
+common_name: "Petite Ciguë"
+latin_name: "Aethusa cynapium"
+appareil_vegetatif:
+  tige_port: []
+  tige_section: []
+  tige_aspect: []
+  feuilles_insertion: []
+  feuilles_composition: []
+inflorescence:
+  type_structure: ["ombelle"]
 image_ref: "../../../assets/flore/aethusa_cynapium.jpg"
 ---
-
 # La Petite Ciguë
 
 **Attention : Plante toxique.** On la trouve souvent comme "mauvaise herbe" dans les potagers.

@@ -1,19 +1,16 @@
 ---
-nom_fr: "Carotte sauvage"
-nom_sci: "Daucus carota"
-famille: "Apiaceae"
-sbs_niveau: 200
-couleur_fleur: ["blanc"]
-mois_floraison: [6, 7, 8, 9]
-feuilles_disposition: "alterne"
-feuilles_type: "composee"
-fleur_type: "ombelle"
-milieu: ["prairie", "bord de chemin"]
-indice_H: 2
-indice_L: 4
+common_name: "Carotte sauvage"
+latin_name: "Daucus carota"
+appareil_vegetatif:
+  tige_port: []
+  tige_section: []
+  tige_aspect: []
+  feuilles_insertion: []
+  feuilles_composition: []
+inflorescence:
+  type_structure: ["ombelle"]
 image_ref: "../../../assets/flore/daucus_carota.jpg"
 ---
-
 # La Carotte Sauvage
 
 C'est la plus élégante des ombellifères blanches et l'ancêtre de notre carotte de jardin. Si tu as un doute, déterre un petit bout de racine et frotte-la : l'odeur de carotte est instantanée.

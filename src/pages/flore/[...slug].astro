@@ -1,63 +1,179 @@
 ---
 // src/pages/flore/[...slug].astro
 import { Image } from 'astro:assets';
-import { getCollection, render } from 'astro:content';
+import { getEntry, render } from 'astro:content'; // Changement ici : getEntry
 import MainLayout from '../../layouts/MainLayout.astro';
 
-export async function getStaticPaths() {
-  const floreEntries = await getCollection('flore');
-  return floreEntries.map(entry => ({
-    // On utilise entry.id qui correspond au nom du fichier
-    params: { slug: entry.id }, 
-    props: { entry },
-  }));
+// 1. Récupérer le slug depuis l'URL
+const { slug } = Astro.params;
+
+// 2. Aller chercher la plante dans la collection
+const entry = await getEntry('flore', slug);
+
+// 3. Sécurité : si la plante n'existe pas encore ou bug
+if (!entry) {
+  return Astro.redirect('/404');
 }
 
-const { entry } = Astro.props;
-
-// "render" transforme le corps du Markdown en composant React/Astro
+// 4. Préparer le contenu Markdown
 const { Content } = await render(entry);
+
+// 5. Tes données (exactement comme avant)
+const { 
+  common_name, 
+  latin_name, 
+  appareil_vegetatif, 
+  inflorescence, 
+  fleur_anatomie,
+  image_ref 
+} = entry.data;
+
+const formatLabel = (str) => str.replace(/_/g, ' ');
 ---
 
-<MainLayout title={entry.data.nom_fr}>
-  <article>
+<MainLayout title={common_name}>
+  <article class="botanical-sheet">
     <header>
-      <h1>{entry.data.nom_fr}</h1>
-      <p><i>{entry.data.nom_sci}</i></p>
+      <div class="title-group">
+        <h1>{common_name}</h1>
+        <p class="latin-name"><i>{latin_name}</i></p>
+      </div>
 
-      <!-- Astro va optimiser cette image automatiquement ! -->
-      {entry.data.image_ref && (
-        <Image 
-          src={entry.data.image_ref} 
-          alt={`Illustration botanique de ${entry.data.nom_fr}`}
-          width={600} 
-          class="illustration-botanique"
-        />
-      )}        
-      
-      {/* Correction ici : on utilise date_observation (avec underscore) */}
-      {entry.data.date_observation && (
-        <p>Observé le : {entry.data.date_observation.toLocaleDateString('fr-FR')}</p>
+      {image_ref && (
+        <div class="image-container">
+          <Image 
+            src={image_ref} 
+            alt={`Illustration de ${common_name}`}
+            width={800} 
+            class="main-illustration"
+          />
+        </div>
       )}
     </header>
 
+    <div class="details-grid">
+      <!-- Section Appareil Végétatif -->
+      {appareil_vegetatif && (
+        <section class="info-card">
+          <h2>🌿 Appareil Végétatif</h2>
+          <dl>
+            {Object.entries(appareil_vegetatif).map(([key, values]) => (
+              values && values.length > 0 && (
+                <div>
+                  <dt>{formatLabel(key)}</dt>
+                  <dd>{values.join(', ')}</dd>
+                </div>
+              )
+            ))}
+          </dl>
+        </section>
+      )}
+
+      <!-- Section Inflorescence -->
+      {inflorescence && (
+        <section class="info-card">
+          <h2>🌼 Inflorescence</h2>
+          <dl>
+            {Object.entries(inflorescence).map(([key, values]) => (
+              values && values.length > 0 && (
+                <div>
+                  <dt>{formatLabel(key)}</dt>
+                  <dd>{values.join(', ')}</dd>
+                </div>
+              )
+            ))}
+          </dl>
+        </section>
+      )}
+
+      <!-- Section Fleur -->
+      {fleur_anatomie && (
+        <section class="info-card">
+          <h2>🔬 Détails de la fleur</h2>
+          <dl>
+            {Object.entries(fleur_anatomie).map(([key, values]) => (
+              values && values.length > 0 && (
+                <div>
+                  <dt>{formatLabel(key)}</dt>
+                  <dd>{values.join(', ')}</dd>
+                </div>
+              )
+            ))}
+          </dl>
+        </section>
+      )}
+    </div>
+
     <hr />
 
-    <div class="contenu-markdown">
-      {/* Si rien ne s'affiche ici, vérifie qu'il y a bien du texte APRES les --- dans ton .md */}
+    <section class="markdown-content">
+      <h2>Description & Notes</h2>
       <Content />
-    </div>
+    </section>
   </article>
 </MainLayout>
 
 <style>
-  article {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    line-height: 1.6;
+  .botanical-sheet {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: 'Segoe UI', system-ui, sans-serif;
   }
-  h1 { color: #2d5a27; margin-bottom: 0; }
-  p { color: #666; }
-  .contenu-markdown { margin-top: 2rem; }
+
+  .title-group {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  h1 { font-size: 2.5rem; color: #1b5e20; margin: 0; }
+  .latin-name { font-size: 1.5rem; color: #666; margin-top: 0.5rem; }
+
+  .main-illustration {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    margin-bottom: 2.5rem;
+  }
+
+  .details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .info-card {
+    background: #f9fbf9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid #2e7d32;
+  }
+
+  .info-card h2 {
+    font-size: 1.1rem;
+    margin-top: 0;
+    color: #2e7d32;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+  }
+
+  dl div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+    border-bottom: 1px dashed #eee;
+    font-size: 0.9rem;
+  }
+
+  dt { font-weight: 600; color: #555; text-transform: capitalize; }
+  dd { margin: 0; color: #222; text-align: right; }
+
+  .markdown-content {
+    line-height: 1.8;
+    color: #333;
+    background: white;
+    padding: 1rem;
+  }
 </style>

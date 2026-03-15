@@ -1,0 +1,22 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+
+// On récupère la collection 'flore' définie dans le config.ts
+const toutesLesPlantes = await getCollection('flore');
+---
+
+<MainLayout title="Mon Herbier">
+  <h1>Ma collection ({toutesLesPlantes.length} plantes)</h1>
+
+  <ul>
+    {toutesLesPlantes.map(plante => (
+      <li>
+        {/* L'URL sera /flore/pissenlit */}
+        <a href={`/flore/${plante.id}`}>
+          <strong>{plante.data.common_name}</strong> (<i>{plante.data.latin_name}</i>)
+        </a>
+      </li>
+    ))}
+  </ul>
+</MainLayout>

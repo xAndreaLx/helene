@@ -1,19 +1,16 @@
 ---
-nom_fr: "Panais sauvage"
-nom_sci: "Pastinaca sativa"
-famille: "Apiaceae"
-sbs_niveau: 200
-couleur_fleur: ["jaune"]
-mois_floraison: [6, 7, 8, 9]
-feuilles_disposition: "alterne"
-feuilles_type: "composee"
-fleur_type: "ombelle"
-milieu: ["bord de chemin", "prairie sèche"]
-indice_H: 2
-indice_L: 5
+common_name: "Panais sauvage"
+latin_name: "Pastinaca sativa"
+appareil_vegetatif:
+  tige_port: []
+  tige_section: []
+  tige_aspect: []
+  feuilles_insertion: []
+  feuilles_composition: []
+inflorescence:
+  type_structure: ["ombelle"]
 image_ref: "../../../assets/flore/pastinaca_sativa.jpg"
 ---
-
 # Le Panais sauvage
 
 C'est le cousin le plus facile à reconnaître car ses fleurs ne sont pas blanches !

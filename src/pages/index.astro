@@ -1,32 +1,22 @@
 ---
-// 1. On n'importe QUE ce dont on a besoin
 import MainLayout from '../layouts/MainLayout.astro';
-import LikeButton from '../components/LikeButton.svelte';
 import { getCollection } from 'astro:content';
-// On récupère tout ce qu'il y a dans "src/content/flore/"
+
+// On récupère la collection 'flore' définie dans le config.ts
 const toutesLesPlantes = await getCollection('flore');
 ---
 
-<MainLayout title="Accueil">
-    <!-- Tout ce qui est ICI sera envoyé dans le <slot /> du Layout -->
-    
-    <h1>Bienvenue sur mon herbier numérique</h1>
-    <p>Exploration de la flore, de la faune et de la poésie.</p>
-    
-    <!-- Ton bouton Svelte à l'intérieur du layout -->
-    <LikeButton client:load />
-
-    <h1>Ma collection Flore</h1>
+<MainLayout title="Mon Herbier">
+  <h1>Ma collection ({toutesLesPlantes.length} plantes)</h1>
 
   <ul>
     {toutesLesPlantes.map(plante => (
       <li>
-        {/* Le slug contiendra "plantes/pissenlit" */}
+        {/* L'URL sera /flore/pissenlit */}
         <a href={`/flore/${plante.id}`}>
-          <strong>{plante.data.nom_fr}</strong> ({plante.data.nom_sci})
+          <strong>{plante.data.common_name}</strong> (<i>{plante.data.latin_name}</i>)
         </a>
       </li>
     ))}
   </ul>
-
 </MainLayout>

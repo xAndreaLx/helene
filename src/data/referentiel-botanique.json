@@ -1,0 +1,281 @@
+{
+  "generalites": {
+      "cycle_de_vie": ["Annuelle", "Bisannuelle", "Vivace"]
+  },
+  "appareil_vegetatif": {
+    "tige_port": [
+      "Acaule",
+      "Couchée / Prostrée",
+      "Ascendante / Montante",
+      "Dressée",
+      "Grimpante",
+      "Rampante",
+      "Stolonifère",
+      "Volubile"
+    ],
+    "tige_section": [
+      "Cylindrique",
+      "Comprimée (applatie)",
+      "Carrée / Quadrangulaire (4 angles)",
+      "Triangulaire / Trigone (3 angles)",
+      "Cannelée",
+      "Ailée"
+    ],
+    "tige_aspect": [
+      "Pleine",
+      "Creuse (fistuleuse)",
+      "Moelleuse"
+    ],
+    "tige_pilosite": [
+      "Glabre",
+      "Pubescente (poils fins)",
+      "Hirsute (poils raides)",
+      "Hispide (poils piquants)",
+      "Laineuse",
+      "Glanduleuse",
+      "Épineuse",
+      "Visqueuse",
+      "Urticante",
+      "Epineuse",
+      "Striée"
+    ],
+    "ramification": [
+      "monopodiale (axe principal dominant)",
+      "Sympodiale simple (axe principal se termine, ramification latérale unique)",
+      "Sympodiale dichotomique / double (axe principal se termine, ramification latérale double)"
+    ],
+    "feuilles_insertion": [
+      "Rosette basale",
+      "Alternes",
+      "Opposées",
+      "Verticillées",
+      "Embrassantes (amplexicaules)",
+      "Décurrentes",
+      "Gainantes"
+    ],
+    "feuilles_petiole" : [
+      "Pétiolées",
+      "Sessiles (sans pétiole)",
+      "Stipulées (reliées à la tige par des stipules)"
+    ],
+    "feuilles_composition": [
+      "Simple",
+      "Composée pennée",
+      "Composée palmée",
+      "Composée bipennée",
+      "Composée tripennée"
+    ],
+    "feuilles_forme": [
+      "Aciculaire",
+      "Acuminée",
+      "Aristée",
+      "Atténuée",
+      "Cordée",
+      "Cunéiforme",
+      "Deltoïde",
+      "Digitée",
+      "Elliptique",
+      "Ensiforme",
+      "Falciforme",
+      "Flabelliforme",
+      "Hastée",
+      "Lancéolée",
+      "Linéaire",
+      "Lobée",
+      "Obcordée",
+      "Oblancéolée",
+      "Oblongue",
+      "Obovale",
+      "Obtuse",
+      "Orbiculaire",
+      "Ovale",
+      "Palmée",
+      "Pédalée",
+      "Peltée",
+      "Perfoliée",
+      "Pennatifide",
+      "Pennatipartite",
+      "Pennatiséquée",
+      "Réniforme",
+      "Rhomboïdale",
+      "Sagittée",
+      "Spatulée",
+      "Subulée",
+      "Trifoliolée",
+      "Tronquée"
+    ],
+    "feuilles_marge": [
+      "Entière",
+      "Dentée / Dentelée",
+      "Doublement denté",
+      "Denticulée (petites dents)",
+      "Denté en scie / serreté",
+      "Sinuée",
+      "Serrulée",
+      "Crénelée",
+      "Ondulée",
+      "Ciliée (frange de poils)",
+      "Lobée"
+    ],
+    "feuille_nervation": [
+      "Uninervée",
+      "Pennée",
+      "Arquée",
+      "Transverse",
+      "Rayonnante",
+      "Palmée",
+      "Parallèle",
+      "Réticulée",
+      "Longitudinale"
+    ],
+    "pilosite_feuille_dessus": [
+      "Glabre",
+      "Pubescente",
+      "Hérissée",
+      "Glanduleuse",
+      "Pubérulente",
+      "Hirsute",
+      "Urticante",
+      "Hispide",
+      "Laineuse",
+      "Veloutée",
+      "Scabre",
+      "Veloutée"
+    ],
+    "pilosite_feuille_dessous": [
+      "Glabre",
+      "Pubescente",
+      "Tomenteuse (feutrée blanc)",
+      "Glauque (cirée bleue/verte)"
+    ]
+  },
+  "inflorescence": {
+    "type_structure": [
+      "Fleur solitaire",
+      "Grappe (Racème)",
+      "Épi",
+      "Épillet (Poacées)",
+      "Ombelle simple",
+      "Ombelle d'ombellules (composée)",
+      "Capitule",
+      "Corymbe",
+      "Cyme bipare",
+      "Cyme unipare scorpioïde",
+      "Cyme unipare hélicoïde",
+      "Panicule",
+      "Chaton",
+      "Glomérule",
+      "Sycone (Figue)",
+      "Cyathe (Euphorbes)"
+    ],
+    "bractees_involucre": [
+      "Absentes",
+      "Involucre simple (à la base de l'ombelle/capitule)",
+      "Involucre et involucelle (à la base de l'ombelle et des ombellules)",
+      "Bractées isolées à la base des pédicelles",
+      "Spathe (grande bractée enveloppante)"
+    ],
+    "bractees_aspect": [
+      "Foliacées (ressemblent à des feuilles)",
+      "Scarieuses (membraneuses, sèches)",
+      "Épineuses",
+      "Divisées/Pennatifides (ex: Carotte)",
+      "Entières",
+      "Écaillées (Imbriquées)"
+    ]
+  },
+  "fleur_anatomie": {
+    "couleur": [
+      "Blanc",
+      "Jaune",
+      "Rouge",
+      "Rose",
+      "Violet",
+      "Bleu",
+      "Vert",
+      "Brun",
+      "Noir"
+    ],
+    "symetrie": [
+      "Actinomorphe (radiaire)",
+      "Zygomorphe (bilatérale)"
+    ],
+    "perianthe": [
+      "Double (Sépales + Pétales)",
+      "Simple (Tépales)",
+      "Nul (Fleur nue)"
+    ],
+    "nb_sepales": [
+      "0",
+      "2",
+      "3",
+      "4",
+      "5",
+      "Nombreux"
+    ],
+    "fusion_sepales": [
+      "Libres (dialisépale)",
+      "Soudés (gamosépale)"
+    ],
+    "nb_petales": [
+      "0",
+      "3",
+      "4",
+      "5",
+      "Nombreux"
+    ],
+    "fusion_petales": [
+      "Libres (dialypétale)",
+      "Soudés (gamopétale)"
+    ],
+    "nb_tepales": [
+      "0",
+      "3",
+      "6",
+      "Nombreux"
+    ],
+    "nb_carpelles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "10",
+      "Nombreux (>20)"
+    ],
+    "nb_etamines": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "10",
+      "Nombreuses (>20)"
+    ],
+    "fusion_etamines": [
+      "Libres",
+      "Soudées par les filets",
+      "Soudées par les anthères"
+    ],
+    "position_ovaire": [
+      "Supère",
+      "Infère",
+      "Semi-infère"
+    ]
+  },
+  "fruits_et_graines": {
+    "type": [
+      "Capsule",
+      "Follicule",
+      "Gousse",
+      "Silique",
+      "Silicule",
+      "Akène",
+      "Baie",
+      "Drupe",
+      "Schizocarpe (Cremocarpe)"
+    ]
+  }
+}

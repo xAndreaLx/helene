@@ -1,19 +1,16 @@
 ---
-nom_fr: "Grande Ciguë"
-nom_sci: "Conium maculatum"
-famille: "Apiaceae"
-sbs_niveau: 300
-couleur_fleur: ["blanc"]
-mois_floraison: [6, 7, 8]
-feuilles_disposition: "alterne"
-feuilles_type: "composee"
-fleur_type: "ombelle"
-milieu: ["décombre", "bord de chemin", "friche"]
-indice_H: 3
-indice_L: 4
+common_name: "Grande Ciguë"
+latin_name: "Conium maculatum"
+appareil_vegetatif:
+  tige_port: []
+  tige_section: []
+  tige_aspect: []
+  feuilles_insertion: []
+  feuilles_composition: []
+inflorescence:
+  type_structure: ["ombelle"]
 image_ref: "../../../assets/flore/conium_maculatum.jpg"
 ---
-
 # La Grande Ciguë
 
 **Attention : Plante mortelle.** Elle ressemble à la carotte sauvage mais se distingue par plusieurs points cruciaux :

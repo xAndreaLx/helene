@@ -1,19 +1,16 @@
 ---
-nom_fr: "Cerfeuil sauvage"
-nom_sci: "Anthriscus sylvestris"
-famille: "Apiaceae"
-sbs_niveau: 200
-couleur_fleur: ["blanc"]
-mois_floraison: [4, 5, 6]
-feuilles_disposition: "alterne"
-feuilles_type: "composee"
-fleur_type: "ombelle"
-milieu: ["bord de route", "haie", "prairie"]
-indice_H: 3
-indice_L: 3
+common_name: "Cerfeuil sauvage"
+latin_name: "Anthriscus sylvestris"
+appareil_vegetatif:
+  tige_port: []
+  tige_section: []
+  tige_aspect: []
+  feuilles_insertion: []
+  feuilles_composition: []
+inflorescence:
+  type_structure: ["ombelle"]
 image_ref: "../../../assets/flore/anthriscus_sylvestris.jpg"
 ---
-
 # Le Cerfeuil sauvage
 
 C'est souvent la première Apiacée blanche que l'on voit au printemps (bien avant la carotte).

@@ -1,0 +1,13 @@
+---
+import AdminForm from '../components/AdminForm.svelte';
+import Toast from '../components/Toast.svelte';
+import referentielData from '../data/referentiel-botanique.json';
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="Ajouter une plante">
+  <main>
+    <Toast client:load /> 
+    <AdminForm client:load referentiel={referentielData} />
+  </main>
+</MainLayout>
