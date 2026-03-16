@@ -1,7 +1,7 @@
 ---
 title: "orbiculaire"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Leaf_morphology_orbicular.png/400px-Leaf_morphology_orbicular.png"
+image: "../../../assets/flore/theorie/feuille_forme_orbiculaire.png"
 description: "De forme arrondie"
 ---
 

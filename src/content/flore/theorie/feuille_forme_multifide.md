@@ -1,7 +1,7 @@
 ---
 title: "multifide"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Leaf_morphology_multifide.svg/400px-Leaf_morphology_multifide.svg.png"
+image: "../../../assets/flore/theorie/feuille_forme_multifide.png"
 description: "Divisée en lanières"
 ---
 

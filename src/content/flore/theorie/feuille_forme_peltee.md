@@ -1,7 +1,7 @@
 ---
 title: "peltée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Leaf_morphology_peltate.png/400px-Leaf_morphology_peltate.png"
+image: "../../../assets/flore/theorie/feuille_forme_peltee.png"
 description: "De forme arrondie, avec le pétiole attaché au milieu du limbe"
 ---
 

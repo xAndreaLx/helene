@@ -1,7 +1,7 @@
 ---
 title: "cunée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Leaf_morphology_cuneate.png/400px-Leaf_morphology_cuneate.png"
+image: "../../../assets/flore/theorie/feuille_forme_cunee.png"
 description: "Base du limbe en forme de coin"
 ---
 

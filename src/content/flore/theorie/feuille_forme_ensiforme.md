@@ -1,7 +1,7 @@
 ---
 title: "ensiforme"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Leaf_morphology_ensiforme.PNG/400px-Leaf_morphology_ensiforme.PNG"
+image: "../../../assets/flore/theorie/feuille_forme_ensiforme.png"
 description: "Longue et pointue, en forme d'épée"
 ---
 

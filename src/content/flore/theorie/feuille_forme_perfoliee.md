@@ -1,7 +1,7 @@
 ---
 title: "perfoliée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Leaf_morphology_perfoliate.png/400px-Leaf_morphology_perfoliate.png"
+image: "../../../assets/flore/theorie/feuille_forme_perfoliee.png"
 description: "Limbe semblant transpercé par la tige"
 ---
 

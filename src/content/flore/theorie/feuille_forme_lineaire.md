@@ -1,7 +1,7 @@
 ---
 title: "linéaire"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Leaf_morphology_linear.png/400px-Leaf_morphology_linear.png"
+image: "../../../assets/flore/theorie/feuille_forme_lineaire.png"
 description: "Longue et très étroite"
 ---
 

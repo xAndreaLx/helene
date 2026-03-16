@@ -1,7 +1,7 @@
 ---
 title: "deltoïde"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Leaf_morphology_deltoid.png/400px-Leaf_morphology_deltoid.png"
+image: "../../../assets/flore/theorie/feuille_forme_deltoide.png"
 description: "Triangulaire, le pétiole étant attaché à un côté"
 ---
 

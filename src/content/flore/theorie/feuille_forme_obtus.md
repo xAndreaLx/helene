@@ -1,7 +1,7 @@
 ---
 title: "obtus"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Leaf_morphology_obtuse.png/400px-Leaf_morphology_obtuse.png"
+image: "../../../assets/flore/theorie/feuille_forme_obtus.png"
 description: "Apex du limbe arrondi"
 ---
 

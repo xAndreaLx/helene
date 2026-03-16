@@ -1,7 +1,7 @@
 ---
 title: "cordée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Leaf_morphology_cordate.png/400px-Leaf_morphology_cordate.png"
+image: "../../../assets/flore/theorie/feuille_forme_cordee.png"
 description: "En forme de cœur, avec la pointe côté apex"
 ---
 

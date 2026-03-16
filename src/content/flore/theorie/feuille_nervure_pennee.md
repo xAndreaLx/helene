@@ -1,6 +1,6 @@
 ---
 title: "Pennée"
 categorie: "nervure"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Leaf_morphology_pinnate.png/400px-Leaf_morphology_pinnate.png"
+image: "../../../assets/flore/theorie/feuille_nervure_pennee.png"
 description: "Nervure secondaire opposée par paires le long de la nervure principale."
 ---

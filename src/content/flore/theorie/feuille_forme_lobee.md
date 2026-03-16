@@ -1,7 +1,7 @@
 ---
 title: "lobée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Leaf_morphology_lobed.png/400px-Leaf_morphology_lobed.png"
+image: "../../../assets/flore/theorie/feuille_forme_lobee.png"
 description: "Divisée en plusieurs lobes"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "pennatifide"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Pennatifide.svg/400px-Pennatifide.svg.png"
+image: "../../../assets/flore/theorie/feuille_forme_pennatifide.png"
 description: "Pennée en segments avec des sinus atteignant environ le milieu"
 ---
 

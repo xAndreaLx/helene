@@ -1,7 +1,7 @@
 ---
 title: "pennatilobée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Pennatilob%C3%A9.svg/400px-Pennatilob%C3%A9.svg.png"
+image: "../../../assets/flore/theorie/feuille_forme_pennatilobee.png"
 description: "Pennée en segments dont les sinus n'atteignent pas le milieu"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "palmatilobée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Palmatilob%C3%A9.svg/400px-Palmatilob%C3%A9.svg.png"
+image: "../../../assets/flore/theorie/feuille_forme_palmatilobee.png"
 description: "Segments palmés avec des sinus n'atteignant pas le milieu du limbe"
 ---
 

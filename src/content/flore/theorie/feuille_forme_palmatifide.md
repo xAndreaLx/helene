@@ -1,7 +1,7 @@
 ---
 title: "palmatifide"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Palmatifide.svg/400px-Palmatifide.svg.png"
+image: "../../../assets/flore/theorie/feuille_forme_palmatifide.png"
 description: "Segments palmés avec des sinus atteignant environ le milieu"
 ---
 

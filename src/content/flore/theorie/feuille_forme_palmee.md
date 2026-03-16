@@ -1,7 +1,7 @@
 ---
 title: "palmée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Leaf_morphology_palmate.png/400px-Leaf_morphology_palmate.png"
+image: "../../../assets/flore/theorie/feuille_forme_palmee.png"
 description: "Divisée en segments rayonnant"
 ---
 

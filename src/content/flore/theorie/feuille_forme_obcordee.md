@@ -1,7 +1,7 @@
 ---
 title: "obcordée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Leaf_morphology_obcordate.png/400px-Leaf_morphology_obcordate.png"
+image: "../../../assets/flore/theorie/feuille_forme_obcordee.png"
 description: "En forme de cœur, avec la pointe côté pétiole"
 ---
 

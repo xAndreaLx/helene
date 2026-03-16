@@ -1,7 +1,7 @@
 ---
 title: "palmatiséquée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Palmatis%C3%A9qu%C3%A9e.svg/400px-Palmatis%C3%A9qu%C3%A9e.svg.png"
+image: "../../../assets/flore/theorie/feuille_forme_palmatisequee.png"
 description: "Segments palmés profondément enfoncés presque jusqu'à la nervure"
 ---
 

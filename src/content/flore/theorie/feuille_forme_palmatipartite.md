@@ -1,7 +1,7 @@
 ---
 title: "palmatipartite"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Palmatipartite.svg/400px-Palmatipartite.svg.png"
+image: "../../../assets/flore/theorie/feuille_forme_palmatipartite.png"
 description: "Segments palmés avec des sinus dépassant nettement le milieu"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "lancéolée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Leaf_morphology_lanceolate.png/400px-Leaf_morphology_lanceolate.png"
+image: "../../../assets/flore/theorie/feuille_forme_lanceolee.png"
 description: "En forme de fer de lance et plus large côté pétiole que côté apex"
 ---
 

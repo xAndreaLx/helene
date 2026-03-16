@@ -1,7 +1,7 @@
 ---
 title: "aristée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Leaf_morphology_aristate.png/400px-Leaf_morphology_aristate.png"
+image: "../../../assets/flore/theorie/feuille_forme_aristee.png"
 description: "Pourvue d'une arête"
 ---
 

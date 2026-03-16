@@ -1,7 +1,7 @@
 ---
 title: "ovale"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Leaf_morphology_ovate.png/400px-Leaf_morphology_ovate.png"
+image: "../../../assets/flore/theorie/feuille_forme_ovale.png"
 description: "De forme ovale comme un œuf, avec partie étroite côté apex"
 ---
 

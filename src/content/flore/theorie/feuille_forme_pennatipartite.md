@@ -1,7 +1,7 @@
 ---
 title: "pennatipartite"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pennatipartite2.svg/400px-Pennatipartite2.svg.png"
+image: "../../../assets/flore/theorie/feuille_forme_pennatipartite.png"
 description: "Pennée en segments dont les sinus dépassent nettement le milieu"
 ---
 

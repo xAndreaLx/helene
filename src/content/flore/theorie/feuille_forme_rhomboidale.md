@@ -1,7 +1,7 @@
 ---
 title: "rhomboïdale"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Leaf_morphology_rhomboid.png/400px-Leaf_morphology_rhomboid.png"
+image: "../../../assets/flore/theorie/feuille_forme_rhomboidale.png"
 description: "En forme de losange"
 ---
 

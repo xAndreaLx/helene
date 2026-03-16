@@ -1,6 +1,6 @@
 ---
 title: "Réticulée"
 categorie: "nervure"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Leaf_morphology_reticulate.png/400px-Leaf_morphology_reticulate.png"
+image: "../../../assets/flore/theorie/feuille_nervure_reticulee.png"
 description: "Réseau dense de petites nervures s'entrecroisant comme des mailles."
 ---

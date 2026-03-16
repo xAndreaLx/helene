@@ -1,7 +1,7 @@
 ---
 title: "spatulée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Leaf_morphology_spatulate.png/400px-Leaf_morphology_spatulate.png"
+image: "../../../assets/flore/theorie/feuille_forme_spatulee.png"
 description: "En forme de spatule"
 ---
 

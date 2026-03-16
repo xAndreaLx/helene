@@ -1,7 +1,7 @@
 ---
 title: "trulliforme"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Leaf_morphology_trullate.png/400px-Leaf_morphology_trullate.png"
+image: "../../../assets/flore/theorie/feuille_forme_trulliforme.png"
 description: "En forme de truelle"
 ---
 

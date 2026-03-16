@@ -1,7 +1,7 @@
 ---
 title: "flabellée"
 categorie: "forme_feuille"
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Leaf_morphology_flabelate.png/400px-Leaf_morphology_flabelate.png"
+image: "../../../assets/flore/theorie/feuille_forme_flabellee.png"
 description: "Semi-circulaire, en forme d'éventail"
 ---
 
