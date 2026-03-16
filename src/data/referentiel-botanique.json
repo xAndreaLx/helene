@@ -1,6 +1,38 @@
 {
+  "classification": {
+    "famille": [
+      "Asteraceae",
+      "Brassicaceae",
+      "Fabaceae",
+      "Poaceae",
+      "Rosaceae",
+      "Lamiaceae",
+      "Apiaceae",
+      "Solanaceae",
+      "Cactaceae",
+      "Orchidaceae"
+    ],
+    "genre": [
+      "Rosa",
+      "Quercus",
+      "Pinus",
+      "Acer",
+      "Salix"
+    ]    
+  },
   "generalites": {
-      "cycle_de_vie": ["Annuelle", "Bisannuelle", "Vivace"]
+      "cycle_de_vie": ["Annuelle", "Bisannuelle", "Vivace"],
+      "habitat": [
+        "Pelouses sableuses", 
+        "Friches ferroviaires", 
+        "Gazons urbains",
+        "Milieux pionniers",
+        "Bords de routes",
+        "Bords de chemins",
+        "Bords de rivières",
+        "Forêts",
+        "Prairies"
+      ]
   },
   "appareil_vegetatif": {
     "tige_port": [

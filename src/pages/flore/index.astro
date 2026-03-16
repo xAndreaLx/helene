@@ -7,7 +7,12 @@ const toutesLesPlantes = await getCollection('flore');
 ---
 
 <MainLayout title="Mon Herbier">
-  <h1>Ma collection ({toutesLesPlantes.length} plantes)</h1>
+
+  <h2>Théorie</h2>
+  <a href="/flore/theorie">Découvrir les formes des feuilles, types d'inflorescences, etc.</a>
+    <hr>
+
+  <h2>Ma collection ({toutesLesPlantes.length} plantes)</h2>
 
   <ul>
     {toutesLesPlantes.map(plante => (
@@ -19,4 +24,6 @@ const toutesLesPlantes = await getCollection('flore');
       </li>
     ))}
   </ul>
+
+  
 </MainLayout>

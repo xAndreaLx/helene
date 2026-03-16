@@ -25,8 +25,17 @@ const flore = defineCollection({
     common_name: z.string(),
     latin_name: z.string(),
 
-    // --- CYCLE DE VIE ---
-    cycle_de_vie: z.array(z.string()).optional(),
+    // --- CLASSIFICATION ---
+    classification: z.object({
+    famille: z.string().optional(),
+      genre: z.string().optional(),
+    }).optional(),
+
+    // --- GENERALITES ---
+    generalites: z.object({
+      cycle_de_vie: z.array(z.string()).optional(),
+      habitat: z.array(z.string()).optional()
+    }).optional(),
 
     // --- APPAREIL VÉGÉTATIF ---
     // On utilise z.array(z.string()) car le MultiSelect envoie des tableaux
