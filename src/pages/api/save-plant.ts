@@ -1,6 +1,7 @@
 export const prerender = false;
 
 import type { APIRoute } from 'astro';
+import { eq } from 'drizzle-orm';
 import { db } from '../../db/index';
 import { plantes, referentiels } from '../../db/schema';
 
@@ -20,10 +21,20 @@ export const POST: APIRoute = async ({ request }) => {
     const { plantData, referentiel } = body; // Plante complète + dictionnaire mis à jour
 
     if (!plantData || !plantData.common_name) {
-      return new Response(JSON.stringify({ message: 'Données manquantes' }), { status: 400 });
+      return new Response(JSON.stringify({ message: 'Le nom commun est requis.' }), { status: 400 });
     }
 
-    const slug = slugify(plantData.common_name);
+    // L'identifiant (slug + clé primaire + URL) dérive du NOM LATIN, qui est
+    // l'identifiant unique d'une espèce. Deux fiches au même binôme = même espèce,
+    // donc l'upsert met à jour la fiche existante au lieu d'écraser une homonyme.
+    if (!plantData.latin_name) {
+      return new Response(JSON.stringify({ message: 'Le nom latin est requis (il sert d\'identifiant unique).' }), { status: 400 });
+    }
+
+    const slug = slugify(plantData.latin_name);
+    if (!slug) {
+      return new Response(JSON.stringify({ message: 'Nom latin invalide.' }), { status: 400 });
+    }
 
     // On sépare les colonnes principales du reste : tout le reste (classification,
     // appareil_vegetatif, inflorescence, ...) est déjà au premier niveau et part
@@ -33,16 +44,30 @@ export const POST: APIRoute = async ({ request }) => {
     const payload = {
       id: slug,
       common_name,
-      latin_name: latin_name || '',
+      latin_name,
       description: description || '',
       data,
     };
 
-    await db
-      .insert(plantes)
-      .values(payload)
-      .onConflictDoUpdate({ target: plantes.id, set: payload })
-      .run();
+    // Création stricte : on ne touche jamais à une fiche existante. Si le nom latin
+    // est déjà pris, on refuse plutôt que d'écraser (l'édition viendra plus tard,
+    // via un écran dédié qui chargera la fiche avant de la modifier).
+    const existing = await db
+      .select({ id: plantes.id })
+      .from(plantes)
+      .where(eq(plantes.id, slug))
+      .get();
+
+    if (existing) {
+      return new Response(
+        JSON.stringify({
+          message: `Une fiche existe déjà pour « ${latin_name} ». Pour la modifier, l'édition n'est pas encore disponible.`,
+        }),
+        { status: 409 },
+      );
+    }
+
+    await db.insert(plantes).values(payload).run();
 
     // On persiste le référentiel enrichi pour que les nouveaux mots survivent au rechargement.
     if (referentiel) {

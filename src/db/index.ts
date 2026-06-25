@@ -7,9 +7,12 @@ import * as schema from './schema';
 //  - dev   : TURSO_DATABASE_URL absent → fichier local "file:sqlite.db"
 //  - prod  : TURSO_DATABASE_URL=libsql://... + TURSO_AUTH_TOKEN (Turso)
 // (import.meta.env côté Astro/Vite, process.env côté scripts Node.)
-const env = (key: string): string | undefined =>
+const env = (key: string): string | undefined => {
   // @ts-ignore - import.meta.env n'existe que sous Vite/Astro
-  (typeof import.meta !== 'undefined' && import.meta.env?.[key]) ?? process.env[key];
+  const value = (typeof import.meta !== 'undefined' && import.meta.env?.[key]) || process.env[key];
+  // Une variable vide (ex: .env copié depuis .env.example) est traitée comme absente.
+  return value && value.length > 0 ? value : undefined;
+};
 
 const url = env('TURSO_DATABASE_URL') ?? 'file:sqlite.db';
 const authToken = env('TURSO_AUTH_TOKEN');
