@@ -2,21 +2,25 @@
   import MultiSelect from './MultiSelect.svelte';
   import { notify } from '../lib/toastStore'; // Importe le petit store de notif
   export let referentiel;
+  // Fiche existante à éditer (forme renvoyée par getPlante). Absente = mode création.
+  export let plante = null;
+
+  const isEdit = !!plante;
 
   let plant = {
-    common_name: '',
-    latin_name: '',
-    description: '',
+    common_name: plante?.common_name ?? '',
+    latin_name: plante?.latin_name ?? '',
+    description: plante?.description ?? '',
   };
 
-  // Initialisation : on crée les tableaux vides pour chaque champ du référentiel.
+  // Initialisation des sections : on crée un tableau pour chaque champ du
+  // référentiel, pré-rempli avec les valeurs de la fiche en mode édition.
   // Les sections (classification, appareil_vegetatif, ...) sont stockées au
-  // premier niveau de `plant` pour correspondre directement au schéma de la BDD
-  // et au rendu de la fiche. Pas de wrapper "caracteristiques".
+  // premier niveau de `plant` pour correspondre au schéma de la BDD.
   Object.keys(referentiel).forEach(section => {
     plant[section] = {};
     Object.keys(referentiel[section]).forEach(champ => {
-      plant[section][champ] = [];
+      plant[section][champ] = plante?.sections?.[section]?.[champ] ?? [];
     });
   });
 
@@ -38,20 +42,28 @@
       });
     });
 
-    console.log("Envoi des données mis à jour :", { plantData: plant, referentiel });
+    // Création : endpoint strict (refuse si le nom latin existe déjà).
+    // Édition : endpoint dédié qui met à jour la fiche identifiée par son id.
+    const endpoint = isEdit ? '/api/update-plant' : '/api/save-plant';
+    const body = isEdit
+      ? { id: plante.id, plantData: plant, referentiel }
+      : { plantData: plant, referentiel };
 
     try {
-      const response = await fetch('/api/save-plant', {
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ plantData: plant, referentiel })
+        body: JSON.stringify(body)
       });
 
       const result = await response.json().catch(() => ({}));
 
       if (response.ok) {
-        notify("Plante et dictionnaire enregistrés !");
-        // Optionnel : réinitialiser le formulaire ici si tu veux
+        notify(isEdit ? "Fiche mise à jour !" : "Plante et dictionnaire enregistrés !");
+        if (isEdit && result.slug) {
+          // On revient à la fiche pour voir le résultat.
+          window.location.href = `/flore/${result.slug}`;
+        }
       } else {
         notify(result.message || "Erreur lors de la sauvegarde", "error");
       }
@@ -64,15 +76,15 @@
 
 <form on:submit|preventDefault={handleSubmit} class="admin-form">
   <section class="base-info">
-    <h2>🌿 Nouvelle Fiche Plante</h2>
+    <h2>{isEdit ? '✏️ Modifier la fiche' : '🌿 Nouvelle Fiche Plante'}</h2>
     <div class="grid-main">
       <div class="field-group">
         <label>Nom commun</label>
         <input type="text" bind:value={plant.common_name} placeholder="ex: Millepertuis perforé" required />
       </div>
       <div class="field-group">
-        <label>Nom latin <span class="hint">(identifiant unique)</span></label>
-        <input type="text" bind:value={plant.latin_name} placeholder="ex: Hypericum perforatum" required />
+        <label>Nom latin <span class="hint">{isEdit ? '(non modifiable — identifiant)' : '(identifiant unique)'}</span></label>
+        <input type="text" bind:value={plant.latin_name} placeholder="ex: Hypericum perforatum" required disabled={isEdit} />
       </div>
     </div>
   </section>
@@ -100,7 +112,7 @@
     <textarea bind:value={plant.description} rows="5" width="100%" placeholder="Propriétés, habitat, confusion possible..."></textarea>
   </section>
   
-  <button type="submit" class="save-btn">🚀 Enregistrer dans la base</button>
+  <button type="submit" class="save-btn">{isEdit ? '💾 Enregistrer les modifications' : '🚀 Enregistrer dans la base'}</button>
 </form>
 
 <style>
@@ -155,13 +167,6 @@
     font-weight: 600;
     color: #555;
     text-transform: capitalize;
-  }
-
-  .hint {
-    font-weight: 400;
-    font-style: italic;
-    color: #999;
-    text-transform: none;
   }
 
   /* Champs de saisie (Correction ici) */
