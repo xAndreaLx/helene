@@ -1,3 +1,8 @@
+# local dev database (libsql file fallback)
+sqlite.db
+sqlite.db-shm
+sqlite.db-wal
+
 # build output
 dist/
 
@@ -25,3 +30,6 @@ pnpm-debug.log*
 
 # Local Netlify folder
 .netlify
+
+# editor swap files
+*.swp

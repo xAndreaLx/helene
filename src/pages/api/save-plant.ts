@@ -1,61 +1,65 @@
 export const prerender = false;
 
 import type { APIRoute } from 'astro';
-import fs from 'node:fs/promises';
-import path from 'node:path';
+import { db } from '../../db/index';
+import { plantes, referentiels } from '../../db/schema';
+
+const slugify = (str: string) =>
+  str
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
 
 export const POST: APIRoute = async ({ request }) => {
-  console.log("🚀 Requête reçue sur /api/save-plant"); // Ce log DOIT apparaître
+  console.log('🚀 Requête reçue sur /api/save-plant');
 
   try {
     const body = await request.json();
-    const { plantData, referentiel } = body;
-    console.log("📦 Données reçues :", { plantData, referentiel }); // Vérifie que les données sont bien reçues
+    const { plantData, referentiel } = body; // Plante complète + dictionnaire mis à jour
 
     if (!plantData || !plantData.common_name) {
-      return new Response(JSON.stringify({ message: "Données manquantes" }), { status: 400 });
+      return new Response(JSON.stringify({ message: 'Données manquantes' }), { status: 400 });
     }
 
-    const projectRoot = process.cwd();
-    
-    // 1. Création du slug (nom de fichier propre)
-    const slug = plantData.common_name
-      .toLowerCase()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[^a-z0-9]/g, "-");
+    const slug = slugify(plantData.common_name);
 
-    // 2. Préparation du contenu Markdown
-    const contentDir = path.join(projectRoot, 'src/content/flore/plantes');
-    const filePath = path.join(contentDir, `${slug}.md`);
+    // On sépare les colonnes principales du reste : tout le reste (classification,
+    // appareil_vegetatif, inflorescence, ...) est déjà au premier niveau et part
+    // tel quel dans la colonne JSON `data`.
+    const { common_name, latin_name, description, ...data } = plantData;
 
-    const fileContent = `---
-common_name: "${plantData.common_name}"
-latin_name: "${plantData.latin_name}"
-description: "${plantData.description || ''}"
-caracteristiques: ${JSON.stringify(plantData.caracteristiques, null, 2)}
----
+    const payload = {
+      id: slug,
+      common_name,
+      latin_name: latin_name || '',
+      description: description || '',
+      data,
+    };
 
-${plantData.description || ''}
-`;
+    await db
+      .insert(plantes)
+      .values(payload)
+      .onConflictDoUpdate({ target: plantes.id, set: payload })
+      .run();
 
-    // 3. Écriture des fichiers
-    await fs.mkdir(contentDir, { recursive: true });
-    await fs.writeFile(filePath, fileContent, 'utf-8');
-    console.log("✅ Fiche Markdown créée :", slug);
+    // On persiste le référentiel enrichi pour que les nouveaux mots survivent au rechargement.
+    if (referentiel) {
+      await db
+        .insert(referentiels)
+        .values({ id: 'principal', data: referentiel })
+        .onConflictDoUpdate({ target: referentiels.id, set: { data: referentiel } })
+        .run();
+    }
 
-    // 4. Mise à jour du référentiel JSON
-    const referentialPath = path.join(projectRoot, 'src/data/referentiel-botanique.json');
-    await fs.writeFile(referentialPath, JSON.stringify(referentiel, null, 2), 'utf-8');
-    console.log("✅ Référentiel JSON mis à jour");
+    console.log('✅ Plante enregistrée :', slug);
 
-    return new Response(JSON.stringify({ 
-      message: "Enregistrement réussi",
-      slug: slug 
-    }), { status: 200 });
-
-  } catch (error) {
-    console.error("❌ ERREUR SERVEUR :", error);
+    return new Response(JSON.stringify({ message: 'Enregistrement réussi !', slug }), {
+      status: 200,
+    });
+  } catch (error: any) {
+    console.error('❌ ERREUR SERVEUR :', error);
     return new Response(JSON.stringify({ message: error.message }), { status: 500 });
   }
 };

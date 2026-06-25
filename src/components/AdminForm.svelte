@@ -7,23 +7,25 @@
     common_name: '',
     latin_name: '',
     description: '',
-    caracteristiques: {}
   };
 
-  // Initialisation : on crée les tableaux vides pour chaque champ du référentiel
+  // Initialisation : on crée les tableaux vides pour chaque champ du référentiel.
+  // Les sections (classification, appareil_vegetatif, ...) sont stockées au
+  // premier niveau de `plant` pour correspondre directement au schéma de la BDD
+  // et au rendu de la fiche. Pas de wrapper "caracteristiques".
   Object.keys(referentiel).forEach(section => {
-    plant.caracteristiques[section] = {};
+    plant[section] = {};
     Object.keys(referentiel[section]).forEach(champ => {
-      plant.caracteristiques[section][champ] = []; 
+      plant[section][champ] = [];
     });
   });
 
   async function handleSubmit() {
     // --- ÉTAPE 1 : MISE À JOUR DU RÉFÉRENTIEL ---
     // On parcourt tout ce qui a été saisi pour voir s'il y a des nouveaux mots
-    Object.keys(plant.caracteristiques).forEach(section => {
-      Object.keys(plant.caracteristiques[section]).forEach(champ => {
-        const saisieUtilisateur = plant.caracteristiques[section][champ];
+    Object.keys(referentiel).forEach(section => {
+      Object.keys(referentiel[section]).forEach(champ => {
+        const saisieUtilisateur = plant[section][champ];
         const optionsExistantes = referentiel[section][champ];
 
         saisieUtilisateur.forEach(valeur => {
@@ -82,7 +84,7 @@
             <label>{champ.replace(/_/g, ' ')}</label>
             <MultiSelect 
               options={referentiel[section][champ]} 
-              bind:selected={plant.caracteristiques[section][champ]} 
+              bind:selected={plant[section][champ]}
               placeholder="Ajouter..."
             />
           </div>
