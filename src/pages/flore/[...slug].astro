@@ -2,6 +2,7 @@
 // src/pages/flore/[...slug].astro
 export const prerender = false;
 
+import { marked } from 'marked';
 import MainLayout from '../../layouts/MainLayout.astro';
 import { getPlante } from '../../db/plantes';
 
@@ -80,7 +81,8 @@ const sectionsRemplies = SECTIONS.map((section) => ({
     {description && (
       <section class="markdown-content">
         <h2>Description & Notes</h2>
-        <p>{description}</p>
+        <!-- Description saisie en Markdown, rendue en HTML (admin = seul auteur de confiance) -->
+        <div set:html={marked.parse(description)} />
       </section>
     )}
   </article>
@@ -164,7 +166,44 @@ const sectionsRemplies = SECTIONS.map((section) => ({
     padding: 1rem;
   }
 
-  .markdown-content p {
-    white-space: pre-wrap;
+  /* Le HTML est injecté via set:html (non scopé par Astro) → :global() requis. */
+  .markdown-content :global(h2),
+  .markdown-content :global(h3),
+  .markdown-content :global(h4) {
+    color: #1b5e20;
+    margin: 1.4rem 0 0.5rem;
+    line-height: 1.3;
+  }
+
+  .markdown-content :global(h3) { font-size: 1.25rem; }
+  .markdown-content :global(h4) { font-size: 1.1rem; }
+
+  .markdown-content :global(p) { margin: 0 0 1rem; }
+
+  .markdown-content :global(ul),
+  .markdown-content :global(ol) {
+    margin: 0 0 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .markdown-content :global(li) { margin-bottom: 0.3rem; }
+
+  .markdown-content :global(strong) { color: #1b5e20; }
+
+  .markdown-content :global(a) { color: #2e7d32; }
+
+  .markdown-content :global(blockquote) {
+    margin: 0 0 1rem;
+    padding: 0.2rem 1rem;
+    border-left: 4px solid #c8e6c9;
+    background: #f9fbf9;
+    color: #555;
+  }
+
+  .markdown-content :global(code) {
+    background: #f0f0f0;
+    padding: 0.1rem 0.3rem;
+    border-radius: 4px;
+    font-size: 0.9em;
   }
 </style>
