@@ -5,8 +5,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 import svelte from '@astrojs/svelte';
 
-import node from '@astrojs/node';
-
 import netlify from '@astrojs/netlify';
 
 // https://astro.build/config

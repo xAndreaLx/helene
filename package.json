@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@astrojs/netlify": "^7.0.13",
-    "@astrojs/node": "^10.1.4",
     "@astrojs/svelte": "^8.1.2",
     "@libsql/client": "^0.17.4",
     "@tailwindcss/vite": "^4.2.1",
