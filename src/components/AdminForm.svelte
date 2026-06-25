@@ -72,6 +72,32 @@
       notify("Erreur serveur", "error");
     }
   }
+
+  async function handleDelete() {
+    if (!confirm(`Supprimer définitivement la fiche « ${plant.common_name} » ? Cette action est irréversible.`)) {
+      return;
+    }
+
+    try {
+      const response = await fetch('/api/delete-plant', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: plante.id })
+      });
+
+      const result = await response.json().catch(() => ({}));
+
+      if (response.ok) {
+        notify("Fiche supprimée.");
+        window.location.href = '/flore';
+      } else {
+        notify(result.message || "Erreur lors de la suppression", "error");
+      }
+    } catch (err) {
+      console.error(err);
+      notify("Erreur serveur", "error");
+    }
+  }
 </script>
 
 <form on:submit|preventDefault={handleSubmit} class="admin-form">
@@ -113,6 +139,10 @@
   </section>
   
   <button type="submit" class="save-btn">{isEdit ? '💾 Enregistrer les modifications' : '🚀 Enregistrer dans la base'}</button>
+
+  {#if isEdit}
+    <button type="button" class="delete-btn" on:click={handleDelete}>🗑️ Supprimer cette fiche</button>
+  {/if}
 </form>
 
 <style>
@@ -205,6 +235,24 @@
     background: #1b5e20;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Bouton de suppression (action destructive, discret) */
+  .delete-btn {
+    align-self: center;
+    background: none;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .delete-btn:hover {
+    background: #ffebee;
+    border-color: #c62828;
   }
 </style>
 
