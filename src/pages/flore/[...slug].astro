@@ -1,34 +1,42 @@
 ---
 // src/pages/flore/[...slug].astro
-import { Image } from 'astro:assets';
-import { getEntry, render } from 'astro:content'; // Changement ici : getEntry
+export const prerender = false;
+
 import MainLayout from '../../layouts/MainLayout.astro';
+import { getPlante } from '../../db/plantes';
 
 // 1. Récupérer le slug depuis l'URL
 const { slug } = Astro.params;
 
-// 2. Aller chercher la plante dans la collection
-const entry = await getEntry('flore', slug);
+// 2. Lire la plante directement en base (visibilité immédiate après ajout)
+const plante = await getPlante(slug!);
 
-// 3. Sécurité : si la plante n'existe pas encore ou bug
-if (!entry) {
+// 3. Sécurité : si la plante n'existe pas
+if (!plante) {
   return Astro.redirect('/404');
 }
 
-// 4. Préparer le contenu Markdown
-const { Content } = await render(entry);
+const { common_name, latin_name, description, image_ref } = plante;
 
-// 5. Tes données (exactement comme avant)
-const { 
-  common_name, 
-  latin_name, 
-  appareil_vegetatif, 
-  inflorescence, 
-  fleur_anatomie,
-  image_ref 
-} = entry.data;
+const formatLabel = (str: string) => str.replace(/_/g, ' ');
 
-const formatLabel = (str) => str.replace(/_/g, ' ');
+// Sections affichées dynamiquement (dans l'ordre), avec leur titre et icône.
+const SECTIONS = [
+  { key: 'classification', title: 'Classification', icon: '🧬' },
+  { key: 'generalites', title: 'Généralités', icon: '📍' },
+  { key: 'appareil_vegetatif', title: 'Appareil Végétatif', icon: '🌿' },
+  { key: 'inflorescence', title: 'Inflorescence', icon: '🌼' },
+  { key: 'fleur_anatomie', title: 'Détails de la fleur', icon: '🔬' },
+  { key: 'fruits_et_graines', title: 'Fruits & Graines', icon: '🌰' },
+];
+
+// On ne garde que les sections qui contiennent au moins une valeur renseignée.
+const sectionsRemplies = SECTIONS.map((section) => ({
+  ...section,
+  entries: Object.entries(plante.sections[section.key] ?? {}).filter(
+    ([, values]) => Array.isArray(values) && values.length > 0
+  ),
+})).filter((section) => section.entries.length > 0);
 ---
 
 <MainLayout title={common_name}>
@@ -41,10 +49,9 @@ const formatLabel = (str) => str.replace(/_/g, ' ');
 
       {image_ref && (
         <div class="image-container">
-          <Image 
-            src={image_ref} 
+          <img
+            src={image_ref}
             alt={`Illustration de ${common_name}`}
-            width={800} 
             class="main-illustration"
           />
         </div>
@@ -52,64 +59,29 @@ const formatLabel = (str) => str.replace(/_/g, ' ');
     </header>
 
     <div class="details-grid">
-      <!-- Section Appareil Végétatif -->
-      {appareil_vegetatif && (
+      {sectionsRemplies.map((section) => (
         <section class="info-card">
-          <h2>🌿 Appareil Végétatif</h2>
+          <h2>{section.icon} {section.title}</h2>
           <dl>
-            {Object.entries(appareil_vegetatif).map(([key, values]) => (
-              values && values.length > 0 && (
-                <div>
-                  <dt>{formatLabel(key)}</dt>
-                  <dd>{values.join(', ')}</dd>
-                </div>
-              )
+            {section.entries.map(([key, values]) => (
+              <div>
+                <dt>{formatLabel(key)}</dt>
+                <dd>{values.join(', ')}</dd>
+              </div>
             ))}
           </dl>
         </section>
-      )}
-
-      <!-- Section Inflorescence -->
-      {inflorescence && (
-        <section class="info-card">
-          <h2>🌼 Inflorescence</h2>
-          <dl>
-            {Object.entries(inflorescence).map(([key, values]) => (
-              values && values.length > 0 && (
-                <div>
-                  <dt>{formatLabel(key)}</dt>
-                  <dd>{values.join(', ')}</dd>
-                </div>
-              )
-            ))}
-          </dl>
-        </section>
-      )}
-
-      <!-- Section Fleur -->
-      {fleur_anatomie && (
-        <section class="info-card">
-          <h2>🔬 Détails de la fleur</h2>
-          <dl>
-            {Object.entries(fleur_anatomie).map(([key, values]) => (
-              values && values.length > 0 && (
-                <div>
-                  <dt>{formatLabel(key)}</dt>
-                  <dd>{values.join(', ')}</dd>
-                </div>
-              )
-            ))}
-          </dl>
-        </section>
-      )}
+      ))}
     </div>
 
     <hr />
 
-    <section class="markdown-content">
-      <h2>Description & Notes</h2>
-      <Content />
-    </section>
+    {description && (
+      <section class="markdown-content">
+        <h2>Description & Notes</h2>
+        <p>{description}</p>
+      </section>
+    )}
   </article>
 </MainLayout>
 
@@ -175,5 +147,9 @@ const formatLabel = (str) => str.replace(/_/g, ' ');
     color: #333;
     background: white;
     padding: 1rem;
+  }
+
+  .markdown-content p {
+    white-space: pre-wrap;
   }
 </style>

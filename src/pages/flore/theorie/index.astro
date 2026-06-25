@@ -18,31 +18,34 @@ const categories = {
   <main class="atlas-container">
     <h1>Atlas Botanique</h1>
 
+    <nav class="sommaire">
+      {Object.values(categories).map(label => (
+        <a href={`#${label.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}`}>{label}</a>
+      ))}
+    </nav>
+
     {Object.entries(categories).map(([key, label]) => (
-        console.log("Rendering category:", key, "with label:", label), // Debug log
       <section>
-        <h2>{label}</h2>
+        <h2 id={label.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '')}>{label}</h2>
         <div class="grid">
           {definitions
             .filter(item => item.data.categorie === key)
             .map(item => (
               <div class="card-theorie">
                 <div class="image-wrapper">
+                <Image 
+                  src={item.data.image} 
+                  alt={item.data.title}
+                  width={400}
+                />
+                {/* Optionnel : Afficher la 2ème image si elle existe (ex: Capitule) */}
+                {item.data.image2 && (
                   <Image 
-                    src={item.data.image} 
+                    src={item.data.image2} 
                     alt={item.data.title}
                     width={400}
-                    height={400}
                   />
-                  {/* Optionnel : Afficher la 2ème image si elle existe (ex: Capitule) */}
-                  {item.data.image2 && (
-                    <Image 
-                      src={item.data.image2} 
-                      alt={item.data.title}
-                      width={400}
-                      height={400}
-                    />
-                  )}
+                )}
                 </div>
                 <div class="content">
                   <h3>{item.data.title}</h3>
@@ -57,6 +60,22 @@ const categories = {
 </MainLayout>
 
 <style>
+  .sommaire {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+    padding: 12px 16px;
+    background: #f5f5f5;
+    border-radius: 8px;
+  }
+  .sommaire a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .sommaire a:hover { text-decoration: underline; }
   .atlas-container { max-width: 1000px; margin: 0 auto; padding: 20px; }
   .grid {
     display: grid;
@@ -73,7 +92,8 @@ const categories = {
   }
   .card-theorie:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
   .card-theorie img {
-    width: 100%;
+    max-width: 100%;   /* Ne dépasse pas la carte */
+    width: auto;       /* Garde sa taille naturelle si elle est plus petite */
     height: 150px;
     object-fit: contain;
     background: #f9f9f9;

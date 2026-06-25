@@ -1,8 +1,18 @@
 ---
+export const prerender = false;
+
 import AdminForm from '../components/AdminForm.svelte';
 import Toast from '../components/Toast.svelte';
-import referentielData from '../data/referentiel-botanique.json';
+import staticReferentiel from '../data/referentiel-botanique.json';
 import MainLayout from '../layouts/MainLayout.astro';
+import { db } from '../db/index';
+import { referentiels } from '../db/schema';
+import { eq } from 'drizzle-orm';
+
+// On charge le référentiel enrichi depuis la BDD (mis à jour à chaque sauvegarde),
+// avec repli sur le JSON statique s'il n'a pas encore été semé.
+const row = await db.select().from(referentiels).where(eq(referentiels.id, 'principal')).get();
+const referentielData = (row?.data as typeof staticReferentiel) ?? staticReferentiel;
 ---
 
 <MainLayout title="Ajouter une plante">
