@@ -47,11 +47,13 @@
         body: JSON.stringify({ plantData: plant, referentiel })
       });
 
+      const result = await response.json().catch(() => ({}));
+
       if (response.ok) {
         notify("Plante et dictionnaire enregistrés !");
         // Optionnel : réinitialiser le formulaire ici si tu veux
       } else {
-        notify("Erreur lors de la sauvegarde", "error");
+        notify(result.message || "Erreur lors de la sauvegarde", "error");
       }
     } catch (err) {
       console.error(err);
@@ -69,8 +71,8 @@
         <input type="text" bind:value={plant.common_name} placeholder="ex: Millepertuis perforé" required />
       </div>
       <div class="field-group">
-        <label>Nom latin</label>
-        <input type="text" bind:value={plant.latin_name} placeholder="ex: Hypericum perforatum" />
+        <label>Nom latin <span class="hint">(identifiant unique)</span></label>
+        <input type="text" bind:value={plant.latin_name} placeholder="ex: Hypericum perforatum" required />
       </div>
     </div>
   </section>
@@ -153,6 +155,13 @@
     font-weight: 600;
     color: #555;
     text-transform: capitalize;
+  }
+
+  .hint {
+    font-weight: 400;
+    font-style: italic;
+    color: #999;
+    text-transform: none;
   }
 
   /* Champs de saisie (Correction ici) */
