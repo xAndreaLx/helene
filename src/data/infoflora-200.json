@@ -1,0 +1,802 @@
+[
+  {
+    "latin_name": "Abies alba",
+    "family": "Pinaceae"
+  },
+  {
+    "latin_name": "Acer campestre",
+    "family": "Sapindaceae"
+  },
+  {
+    "latin_name": "Acer platanoides",
+    "family": "Sapindaceae"
+  },
+  {
+    "latin_name": "Acer pseudoplatanus",
+    "family": "Sapindaceae"
+  },
+  {
+    "latin_name": "Achillea millefolium",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Aegopodium podagraria",
+    "family": "Apiaceae"
+  },
+  {
+    "latin_name": "Ajuga reptans",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Alliaria petiolata",
+    "family": "Brassicaceae"
+  },
+  {
+    "latin_name": "Allium ursinum",
+    "family": "Amaryllidaceae"
+  },
+  {
+    "latin_name": "Alnus glutinosa",
+    "family": "Betulaceae"
+  },
+  {
+    "latin_name": "Alnus incana",
+    "family": "Betulaceae"
+  },
+  {
+    "latin_name": "Alopecurus pratensis",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Anemone nemorosa",
+    "family": "Ranunculaceae"
+  },
+  {
+    "latin_name": "Anthoxanthum odoratum",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Anthriscus sylvestris",
+    "family": "Apiaceae"
+  },
+  {
+    "latin_name": "Anthyllis vulneraria",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Arabidopsis thaliana",
+    "family": "Brassicaceae"
+  },
+  {
+    "latin_name": "Arrhenatherum elatius",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Artemisia vulgaris",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Arum maculatum",
+    "family": "Araceae"
+  },
+  {
+    "latin_name": "Asplenium ruta-muraria",
+    "family": "Aspleniaceae"
+  },
+  {
+    "latin_name": "Asplenium trichomanes",
+    "family": "Aspleniaceae"
+  },
+  {
+    "latin_name": "Athyrium filix-femina",
+    "family": "Athyriaceae"
+  },
+  {
+    "latin_name": "Bellis perennis",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Betula pendula",
+    "family": "Betulaceae"
+  },
+  {
+    "latin_name": "Briza media",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Bromus erectus",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Bromus hordeaceus",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Bromus sterilis",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Calluna vulgaris",
+    "family": "Ericaceae"
+  },
+  {
+    "latin_name": "Caltha palustris",
+    "family": "Ranunculaceae"
+  },
+  {
+    "latin_name": "Calystegia sepium",
+    "family": "Convolvulaceae"
+  },
+  {
+    "latin_name": "Campanula rotundifolia",
+    "family": "Campanulaceae"
+  },
+  {
+    "latin_name": "Capsella bursa-pastoris",
+    "family": "Brassicaceae"
+  },
+  {
+    "latin_name": "Cardamine hirsuta",
+    "family": "Brassicaceae"
+  },
+  {
+    "latin_name": "Cardamine pratensis",
+    "family": "Brassicaceae"
+  },
+  {
+    "latin_name": "Carex caryophyllea",
+    "family": "Cyperaceae"
+  },
+  {
+    "latin_name": "Carex flacca",
+    "family": "Cyperaceae"
+  },
+  {
+    "latin_name": "Carex flava",
+    "family": "Cyperaceae"
+  },
+  {
+    "latin_name": "Carex nigra",
+    "family": "Cyperaceae"
+  },
+  {
+    "latin_name": "Carex sylvatica",
+    "family": "Cyperaceae"
+  },
+  {
+    "latin_name": "Carpinus betulus",
+    "family": "Betulaceae"
+  },
+  {
+    "latin_name": "Centaurea jacea",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Centaurea scabiosa",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Cerastium fontanum",
+    "family": "Caryophyllaceae"
+  },
+  {
+    "latin_name": "Chelidonium majus",
+    "family": "Papaveraceae"
+  },
+  {
+    "latin_name": "Cichorium intybus",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Clematis vitalba",
+    "family": "Ranunculaceae"
+  },
+  {
+    "latin_name": "Colchicum autumnale",
+    "family": "Colchicaceae"
+  },
+  {
+    "latin_name": "Convallaria majalis",
+    "family": "Asparagaceae"
+  },
+  {
+    "latin_name": "Convolvulus arvensis",
+    "family": "Convolvulaceae"
+  },
+  {
+    "latin_name": "Cornus sanguinea",
+    "family": "Cornaceae"
+  },
+  {
+    "latin_name": "Corylus avellana",
+    "family": "Betulaceae"
+  },
+  {
+    "latin_name": "Crataegus monogyna",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Crepis biennis",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Cymbalaria muralis",
+    "family": "Plantaginaceae"
+  },
+  {
+    "latin_name": "Cypripedium calceolus",
+    "family": "Orchidaceae"
+  },
+  {
+    "latin_name": "Dactylis glomerata",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Dactylorhiza maculata",
+    "family": "Orchidaceae"
+  },
+  {
+    "latin_name": "Daucus carota",
+    "family": "Apiaceae"
+  },
+  {
+    "latin_name": "Dianthus carthusianorum",
+    "family": "Caryophyllaceae"
+  },
+  {
+    "latin_name": "Dianthus sylvestris",
+    "family": "Caryophyllaceae"
+  },
+  {
+    "latin_name": "Dryopteris filix-mas",
+    "family": "Dryopteridaceae"
+  },
+  {
+    "latin_name": "Equisetum arvense",
+    "family": "Equisetaceae"
+  },
+  {
+    "latin_name": "Equisetum hyemale",
+    "family": "Equisetaceae"
+  },
+  {
+    "latin_name": "Equisetum telmateia",
+    "family": "Equisetaceae"
+  },
+  {
+    "latin_name": "Erigeron annuus",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Eriophorum angustifolium",
+    "family": "Cyperaceae"
+  },
+  {
+    "latin_name": "Eriophorum latifolium",
+    "family": "Cyperaceae"
+  },
+  {
+    "latin_name": "Euonymus europaeus",
+    "family": "Celastraceae"
+  },
+  {
+    "latin_name": "Eupatorium cannabinum",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Euphorbia cyparissias",
+    "family": "Euphorbiaceae"
+  },
+  {
+    "latin_name": "Fagus sylvatica",
+    "family": "Fagaceae"
+  },
+  {
+    "latin_name": "Festuca rubra",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Fragaria vesca",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Fraxinus excelsior",
+    "family": "Oleaceae"
+  },
+  {
+    "latin_name": "Galium aparine",
+    "family": "Rubiaceae"
+  },
+  {
+    "latin_name": "Galium mollugo aggr.",
+    "family": "Rubiaceae"
+  },
+  {
+    "latin_name": "Galium odoratum",
+    "family": "Rubiaceae"
+  },
+  {
+    "latin_name": "Gentiana acaulis",
+    "family": "GenUanaceae"
+  },
+  {
+    "latin_name": "Geranium pyrenaicum",
+    "family": "Geraniaceae"
+  },
+  {
+    "latin_name": "Geranium robertianum",
+    "family": "Geraniaceae"
+  },
+  {
+    "latin_name": "Geranium sylvaticum",
+    "family": "Geraniaceae"
+  },
+  {
+    "latin_name": "Geum rivale",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Geum urbanum",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Glechoma hederacea",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Hedera helix",
+    "family": "Araliaceae"
+  },
+  {
+    "latin_name": "Heracleum sphondylium",
+    "family": "Apiaceae"
+  },
+  {
+    "latin_name": "Hieracium murorum aggr.",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Hieracium pilosella",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Hippocrepis comosa",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Holcus lanatus",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Hypericum perforatum",
+    "family": "Hypericaceae"
+  },
+  {
+    "latin_name": "Juncus effusus",
+    "family": "Juncaceae"
+  },
+  {
+    "latin_name": "Juncus inflexus",
+    "family": "Juncaceae"
+  },
+  {
+    "latin_name": "Juniperus communis subsp. communis",
+    "family": "Cupressaceae"
+  },
+  {
+    "latin_name": "Knautia arvensis",
+    "family": "Caprifoliaceae"
+  },
+  {
+    "latin_name": "Lamium galeobdolon",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Lamium maculatum",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Lamium purpureum",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Lapsana communis",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Larix decidua",
+    "family": "Pinaceae"
+  },
+  {
+    "latin_name": "Lathyrus pratensis",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Leontodon hispidus",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Leucanthemum vulgare",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Ligustrum vulgare",
+    "family": "Oleaceae"
+  },
+  {
+    "latin_name": "Lilium martagon",
+    "family": "Liliaceae"
+  },
+  {
+    "latin_name": "Linaria vulgaris",
+    "family": "Plantaginaceae"
+  },
+  {
+    "latin_name": "Listera ovata",
+    "family": "Orchidaceae"
+  },
+  {
+    "latin_name": "Lolium multiflorum",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Lolium perenne",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Lonicera xylosteum",
+    "family": "Caprifoliaceae"
+  },
+  {
+    "latin_name": "Lotus corniculatus",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Luzula sylvatica",
+    "family": "Juncaceae"
+  },
+  {
+    "latin_name": "Medicago lupulina",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Medicago sativa",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Melica nutans",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Mercurialis perennis",
+    "family": "Euphorbiaceae"
+  },
+  {
+    "latin_name": "Nuphar lutea",
+    "family": "Nymphaeaceae"
+  },
+  {
+    "latin_name": "Onobrychis viciifolia",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Origanum vulgare",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Oxalis acetosella",
+    "family": "Oxalidaceae"
+  },
+  {
+    "latin_name": "Papaver rhoeas",
+    "family": "Papaveraceae"
+  },
+  {
+    "latin_name": "Paris quadrifolia",
+    "family": "Melanthiaceae"
+  },
+  {
+    "latin_name": "Phleum pratense aggr.",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Phragmites australis",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Phyteuma spicatum",
+    "family": "Campanulaceae"
+  },
+  {
+    "latin_name": "Picea abies",
+    "family": "Pinaceae"
+  },
+  {
+    "latin_name": "Pinus sylvestris",
+    "family": "Pinaceae"
+  },
+  {
+    "latin_name": "Plantago lanceolata",
+    "family": "Plantaginaceae"
+  },
+  {
+    "latin_name": "Plantago major",
+    "family": "Plantaginaceae"
+  },
+  {
+    "latin_name": "Plantago media",
+    "family": "Plantaginaceae"
+  },
+  {
+    "latin_name": "Poa annua",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Poa pratensis",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Poa trivialis",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Polygonatum multiflorum",
+    "family": "Asparagaceae"
+  },
+  {
+    "latin_name": "Polygonatum odoratum",
+    "family": "Asparagaceae"
+  },
+  {
+    "latin_name": "Populus tremula",
+    "family": "Salicaceae"
+  },
+  {
+    "latin_name": "Potentilla anserina",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Potentilla erecta",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Potentilla reptans",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Prenanthes purpurea",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Primula elatior",
+    "family": "Primulaceae"
+  },
+  {
+    "latin_name": "Primula veris",
+    "family": "Primulaceae"
+  },
+  {
+    "latin_name": "Prunella vulgaris",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Prunus avium",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Prunus spinosa",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Pteridium aquilinum",
+    "family": "DennstaedUaceae"
+  },
+  {
+    "latin_name": "Quercus petraea",
+    "family": "Fagaceae"
+  },
+  {
+    "latin_name": "Quercus robur",
+    "family": "Fagaceae"
+  },
+  {
+    "latin_name": "Ranunculus acris",
+    "family": "Ranunculaceae"
+  },
+  {
+    "latin_name": "Ranunculus bulbosus",
+    "family": "Ranunculaceae"
+  },
+  {
+    "latin_name": "Ranunculus ficaria",
+    "family": "Ranunculaceae"
+  },
+  {
+    "latin_name": "Ranunculus repens",
+    "family": "Ranunculaceae"
+  },
+  {
+    "latin_name": "Rhinanthus alectorolophus",
+    "family": "Orobanchaceae"
+  },
+  {
+    "latin_name": "Rhododendron ferrugineum",
+    "family": "Ericaceae"
+  },
+  {
+    "latin_name": "Rubus caesius",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Rubus idaeus",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Rumex acetosa",
+    "family": "Polygonaceae"
+  },
+  {
+    "latin_name": "Rumex obtusifolius",
+    "family": "Polygonaceae"
+  },
+  {
+    "latin_name": "Salix alba",
+    "family": "Salicaceae"
+  },
+  {
+    "latin_name": "Salix caprea",
+    "family": "Salicaceae"
+  },
+  {
+    "latin_name": "Salvia pratensis",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Sambucus nigra",
+    "family": "Adoxaceae"
+  },
+  {
+    "latin_name": "Scabiosa columbaria",
+    "family": "Caprifoliaceae"
+  },
+  {
+    "latin_name": "Sedum album",
+    "family": "Crassulaceae"
+  },
+  {
+    "latin_name": "Senecio vulgaris",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Silene dioica",
+    "family": "Caryophyllaceae"
+  },
+  {
+    "latin_name": "Silene nutans",
+    "family": "Caryophyllaceae"
+  },
+  {
+    "latin_name": "Silene vulgaris",
+    "family": "Caryophyllaceae"
+  },
+  {
+    "latin_name": "Sorbus aria",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Sorbus aucuparia",
+    "family": "Rosaceae"
+  },
+  {
+    "latin_name": "Stellaria media",
+    "family": "Caryophyllaceae"
+  },
+  {
+    "latin_name": "Taraxacum officinale aggr.",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Taxus baccata",
+    "family": "Taxaceae"
+  },
+  {
+    "latin_name": "Thymus serpyllum aggr.",
+    "family": "Lamiaceae"
+  },
+  {
+    "latin_name": "Tilia cordata",
+    "family": "Malvaceae"
+  },
+  {
+    "latin_name": "Tilia platyphyllos",
+    "family": "Malvaceae"
+  },
+  {
+    "latin_name": "Tofieldia calyculata",
+    "family": "Tofieldiaceae"
+  },
+  {
+    "latin_name": "Tragopogon pratensis",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Trifolium montanum",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Trifolium pratense",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Trifolium repens",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Trisetum flavescens",
+    "family": "Poaceae"
+  },
+  {
+    "latin_name": "Trollius europaeus",
+    "family": "Ranunculaceae"
+  },
+  {
+    "latin_name": "Tussilago farfara",
+    "family": "Asteraceae"
+  },
+  {
+    "latin_name": "Ulmus glabra",
+    "family": "Ulmaceae"
+  },
+  {
+    "latin_name": "Urtica dioica",
+    "family": "UrUcaceae"
+  },
+  {
+    "latin_name": "Vaccinium myrtillus",
+    "family": "Ericaceae"
+  },
+  {
+    "latin_name": "Valeriana officinalis",
+    "family": "Caprifoliaceae"
+  },
+  {
+    "latin_name": "Verbascum thapsus",
+    "family": "Scrophulariaceae"
+  },
+  {
+    "latin_name": "Veronica chamaedrys",
+    "family": "Plantaginaceae"
+  },
+  {
+    "latin_name": "Veronica hederifolia",
+    "family": "Plantaginaceae"
+  },
+  {
+    "latin_name": "Veronica persica",
+    "family": "Plantaginaceae"
+  },
+  {
+    "latin_name": "Viburnum lantana",
+    "family": "Adoxaceae"
+  },
+  {
+    "latin_name": "Viburnum opulus",
+    "family": "Adoxaceae"
+  },
+  {
+    "latin_name": "Vicia cracca",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Vicia sepium",
+    "family": "Fabaceae"
+  },
+  {
+    "latin_name": "Viola reichenbachiana",
+    "family": "Violaceae"
+  },
+  {
+    "latin_name": "Viola tricolor",
+    "family": "Violaceae"
+  }
+]
