@@ -1,0 +1,58 @@
+---
+export const prerender = false;
+
+import MainLayout from '../../layouts/MainLayout.astro';
+import { getFamilles } from '../../db/plantes';
+
+const familles = await getFamilles();
+---
+
+<MainLayout title="Familles botaniques">
+  <h1>Familles botaniques</h1>
+  <p class="intro">{familles.length} familles représentées dans la collection.</p>
+
+  <ul class="familles-grid">
+    {familles.map((f) => (
+      <li>
+        <a href={`/flore/famille/${f.slug}`}>
+          <span class="nom">{f.famille}</span>
+          <span class="count">{f.species.length} {f.species.length > 1 ? 'espèces' : 'espèce'}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</MainLayout>
+
+<style>
+  h1 { color: #1b5e20; }
+  .intro { color: #666; margin-bottom: 2rem; }
+
+  .familles-grid {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+
+  .familles-grid a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1rem;
+    border: 1px solid #c8e6c9;
+    border-left: 4px solid #2e7d32;
+    border-radius: 10px;
+    background: #f9fbf9;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .familles-grid a:hover {
+    background: #e8f5e9;
+    transform: translateY(-2px);
+  }
+
+  .nom { font-weight: 600; color: #2e7d32; }
+  .count { font-size: 0.85rem; color: #777; }
+</style>
