@@ -1,0 +1,215 @@
+[
+  {
+    "id": "aethusa-cynapium",
+    "common_name": "Petite Ciguë",
+    "latin_name": "Aethusa cynapium",
+    "description": "# La Petite Ciguë\n\n**Attention : Plante toxique.** On la trouve souvent comme \"mauvaise herbe\" dans les potagers.\n\n### Comment l'identifier ?\n- **Les \"moustaches\" :** C'est son signe le plus sûr. Sous chaque petite ombelle (ombellule), il y a 3 longues lanières vertes (bractéoles) qui pendent vers le bas.\n- **La taille :** Elle est généralement plus petite que la Grande Ciguë.\n- **La tige :** Elle n'a pas les taches rouges de sa grande cousine.",
+    "data": {
+      "appareil_vegetatif": {
+        "tige_port": [],
+        "tige_section": [],
+        "tige_aspect": [],
+        "feuilles_insertion": [],
+        "feuilles_composition": []
+      },
+      "inflorescence": {
+        "type_structure": [
+          "ombelle"
+        ]
+      },
+      "image_ref": "/plantes/aethusa_cynapium.jpg"
+    }
+  },
+  {
+    "id": "anthriscus-sylvestris",
+    "common_name": "Cerfeuil sauvage",
+    "latin_name": "Anthriscus sylvestris",
+    "description": "# Le Cerfeuil sauvage\n\nC'est souvent la première Apiacée blanche que l'on voit au printemps (bien avant la carotte).\n\n### Comment l'identifier ?\n- **La tige :** Elle est cannelée (creusée de sillons) et légèrement poilue à la base, mais elle n'a **pas de taches rouges** comme la grande ciguë.\n- **La floraison :** Très précoce (avril/mai).\n- **Les ombelles :** Elles n'ont pas de \"collerette\" de feuilles (bractées) à la base de l'ombelle principale, contrairement à la carotte.",
+    "data": {
+      "appareil_vegetatif": {
+        "tige_port": [],
+        "tige_section": [],
+        "tige_aspect": [],
+        "feuilles_insertion": [],
+        "feuilles_composition": []
+      },
+      "inflorescence": {
+        "type_structure": [
+          "ombelle"
+        ]
+      },
+      "image_ref": "/plantes/anthriscus_sylvestris.jpg"
+    }
+  },
+  {
+    "id": "chelidonium-majus",
+    "common_name": "Grande chélidoine",
+    "latin_name": "Chelidonium majus",
+    "description": "On l'appelle aussi herbe aux verrues ou herbe à verrues car son latex jaune-orangé toxique est utilisé pour éliminer les verrues (attention à ne pas confondre avec Euphorbia helioscopia qui porte également le même nom vernaculaire).",
+    "data": {
+      "appareil_vegetatif": {
+        "tige_port": [
+          "Dressée",
+          "ramifiée"
+        ],
+        "tige_section": [],
+        "tige_aspect": [],
+        "tige_pilosite": [],
+        "feuilles_insertion": [],
+        "feuilles_composition": [],
+        "pilosite_feuille_dessus": [],
+        "pilosite_feuille_dessous": []
+      },
+      "inflorescence": {
+        "type_structure": [],
+        "bractees_involucre": [],
+        "bractees_aspect": []
+      },
+      "fleur_anatomie": {
+        "couleur": [
+          "Jaune"
+        ],
+        "symetrie": [],
+        "perianthe": [],
+        "nb_sepales": [],
+        "fusion_sepales": [],
+        "nb_petales": [],
+        "fusion_petales": [],
+        "nb_tepales": [],
+        "nb_etamines": [],
+        "fusion_etamines": [],
+        "position_ovaire": []
+      },
+      "fruits_et_graines": {
+        "type": []
+      }
+    }
+  },
+  {
+    "id": "conium-maculatum",
+    "common_name": "Grande Ciguë",
+    "latin_name": "Conium maculatum",
+    "description": "# La Grande Ciguë\n\n**Attention : Plante mortelle.** Elle ressemble à la carotte sauvage mais se distingue par plusieurs points cruciaux :\n\n### Comment l'identifier ?\n- **La tige :** Elle est totalement **glabre** (sans poils) et présente des **taches pourpres/rouges** à la base.\n- **L'odeur :** Quand on froisse les feuilles, elle dégage une odeur désagréable rappelant l'urine de souris.\n- **La fleur :** Contrairement à la carotte, il n'y a jamais de petite fleur rouge/noire au centre de l'ombelle.\n\nC'est la plante qui a servi à préparer le poison de Socrate.",
+    "data": {
+      "appareil_vegetatif": {
+        "tige_port": [],
+        "tige_section": [],
+        "tige_aspect": [],
+        "feuilles_insertion": [],
+        "feuilles_composition": []
+      },
+      "inflorescence": {
+        "type_structure": [
+          "ombelle"
+        ]
+      },
+      "image_ref": "/plantes/conium_maculatum.jpg"
+    }
+  },
+  {
+    "id": "daucus-carota",
+    "common_name": "Carotte sauvage",
+    "latin_name": "Daucus carota",
+    "description": "# La Carotte Sauvage\n\nC'est la plus élégante des ombellifères blanches et l'ancêtre de notre carotte de jardin. Si tu as un doute, déterre un petit bout de racine et frotte-la : l'odeur de carotte est instantanée.\n\n### Les 3 points clés pour l'identifier :\n\n1. **La \"fleur de sang\" :** Au centre de l'ombelle blanche, il y a presque toujours **une seule petite fleur rouge foncé ou pourpre**. On dit qu'elle sert à attirer les insectes en faisant croire qu'un autre insecte est déjà posé là.\n2. **La collerette en trident :** Juste sous l'ombelle, il y a des bractées (petites feuilles) très découpées, souvent en forme de **trident ou de fourchette**. C'est très différent des autres ombellifères qui ont souvent des bractées simples ou pas de bractées du tout.\n3. **Le nid d'oiseau :** Lorsqu'elle commence à monter en graines, l'ombelle se referme sur elle-même. Elle forme alors une structure creuse qui ressemble à un **petit nid d'oiseau**.\n\n### Caractéristiques de terrain :\n- **La tige :** Elle est poilue et striée (contrairement à la Grande Ciguë qui est lisse).\n- **Le milieu :** Elle adore les endroits secs et bien exposés au soleil (Indice L: 4).",
+    "data": {
+      "appareil_vegetatif": {
+        "tige_port": [],
+        "tige_section": [],
+        "tige_aspect": [],
+        "feuilles_insertion": [],
+        "feuilles_composition": []
+      },
+      "inflorescence": {
+        "type_structure": [
+          "ombelle"
+        ]
+      },
+      "image_ref": "/plantes/daucus_carota.jpg"
+    }
+  },
+  {
+    "id": "heracleum-sphondylium",
+    "common_name": "Berce commune",
+    "latin_name": "Heracleum sphondylium",
+    "description": "# La Berce commune\n\nC'est une plante massive et très robuste, beaucoup plus imposante que la carotte sauvage.\n\n### Comment l'identifier ?\n- **La tige :** Elle est très **anguleuse**, creuse et recouverte de poils rudes (elle \"pique\" un peu).\n- **Les feuilles :** Elles sont énormes, découpées en larges segments (pas finement comme la carotte).\n- **Les fleurs :** Les pétales extérieurs de l'ombelle sont souvent beaucoup plus grands que les autres.\n\n*Note : Sa sève est phototoxique (elle peut provoquer des brûlures si on s'expose au soleil après l'avoir touchée).*",
+    "data": {
+      "appareil_vegetatif": {
+        "tige_port": [],
+        "tige_section": [],
+        "tige_aspect": [],
+        "feuilles_insertion": [],
+        "feuilles_composition": []
+      },
+      "inflorescence": {
+        "type_structure": [
+          "ombelle"
+        ]
+      },
+      "image_ref": "/plantes/heracleum_sphondylium.jpg"
+    }
+  },
+  {
+    "id": "lamium-album",
+    "common_name": "Lamier blanc",
+    "latin_name": "Lamium album",
+    "description": "",
+    "data": {
+      "appareil_vegetatif": {
+        "tige_port": [
+          "Dressée"
+        ],
+        "tige_section": [],
+        "tige_aspect": [],
+        "tige_pilosite": [],
+        "feuilles_insertion": [],
+        "feuilles_composition": [],
+        "pilosite_feuille_dessus": [],
+        "pilosite_feuille_dessous": []
+      },
+      "inflorescence": {
+        "type_structure": [],
+        "bractees_involucre": [],
+        "bractees_aspect": []
+      },
+      "fleur_anatomie": {
+        "couleur": [
+          "Blanc"
+        ],
+        "symetrie": [],
+        "perianthe": [],
+        "nb_sepales": [],
+        "fusion_sepales": [],
+        "nb_petales": [],
+        "fusion_petales": [],
+        "nb_tepales": [],
+        "nb_etamines": [],
+        "fusion_etamines": [],
+        "position_ovaire": []
+      },
+      "fruits_et_graines": {
+        "type": []
+      }
+    }
+  },
+  {
+    "id": "pastinaca-sativa",
+    "common_name": "Panais sauvage",
+    "latin_name": "Pastinaca sativa",
+    "description": "# Le Panais sauvage\n\nC'est le cousin le plus facile à reconnaître car ses fleurs ne sont pas blanches !\n\n### Comment l'identifier ?\n- **La couleur :** Ses fleurs sont d'un **jaune vif**.\n- **La tige :** Elle est très anguleuse et sillonnée.\n- **L'odeur :** La racine a la délicieuse odeur caractéristique du panais que l'on mange.\n\nComme la berce, sa sève peut être irritante au soleil.",
+    "data": {
+      "appareil_vegetatif": {
+        "tige_port": [],
+        "tige_section": [],
+        "tige_aspect": [],
+        "feuilles_insertion": [],
+        "feuilles_composition": []
+      },
+      "inflorescence": {
+        "type_structure": [
+          "ombelle"
+        ]
+      },
+      "image_ref": "/plantes/pastinaca_sativa.jpg"
+    }
+  }
+]
