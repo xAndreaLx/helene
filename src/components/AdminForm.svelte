@@ -168,8 +168,8 @@
         <input type="text" bind:value={plant.common_name} placeholder="ex: Millepertuis perforé" required />
       </div>
       <div class="field-group">
-        <label>Nom latin <span class="hint">{isEdit ? '(non modifiable — identifiant)' : '(identifiant unique)'}</span></label>
-        <input type="text" bind:value={plant.latin_name} placeholder="ex: Hypericum perforatum" required disabled={isEdit} />
+        <label>Nom latin <span class="hint">{isEdit ? "(modifiable ; renomme aussi l'URL)" : '(identifiant unique)'}</span></label>
+        <input type="text" bind:value={plant.latin_name} placeholder="ex: Hypericum perforatum" required />
       </div>
     </div>
 

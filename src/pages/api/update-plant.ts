@@ -5,6 +5,14 @@ import { eq } from 'drizzle-orm';
 import { db } from '../../db/index';
 import { plantes, referentiels } from '../../db/schema';
 
+const slugify = (str: string) =>
+  str
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+
 export const POST: APIRoute = async ({ request }) => {
   console.log('✏️ Requête reçue sur /api/update-plant');
 
@@ -18,6 +26,9 @@ export const POST: APIRoute = async ({ request }) => {
     if (!plantData.common_name) {
       return new Response(JSON.stringify({ message: 'Le nom commun est requis.' }), { status: 400 });
     }
+    if (!plantData.latin_name) {
+      return new Response(JSON.stringify({ message: 'Le nom latin est requis.' }), { status: 400 });
+    }
 
     // La fiche doit exister : on met à jour, on ne crée jamais ici.
     const existing = await db.select().from(plantes).where(eq(plantes.id, id)).get();
@@ -25,17 +36,38 @@ export const POST: APIRoute = async ({ request }) => {
       return new Response(JSON.stringify({ message: 'Fiche introuvable.' }), { status: 404 });
     }
 
-    // common_name, description et les sections sont éditables. Le nom latin
-    // (= identité, dont dérive l'id/l'URL) reste figé sur la valeur existante,
-    // quoi que renvoie le client.
-    const { common_name, description, ...data } = plantData;
-    delete (data as Record<string, unknown>).latin_name;
+    // Tout est éditable, y compris le nom latin (révisions taxonomiques :
+    // Ranunculus ficaria → Ficaria verna).
+    const { common_name, latin_name, description, ...data } = plantData;
+    const newId = slugify(latin_name);
+    if (!newId) {
+      return new Response(JSON.stringify({ message: 'Nom latin invalide.' }), { status: 400 });
+    }
 
-    await db
-      .update(plantes)
-      .set({ common_name, description: description || '', data })
-      .where(eq(plantes.id, id))
-      .run();
+    const payload = { common_name, latin_name, description: description || '', data };
+
+    if (newId === id) {
+      // Pas de renommage : simple mise à jour en place.
+      await db.update(plantes).set(payload).where(eq(plantes.id, id)).run();
+    } else {
+      // Le nom latin a changé → l'id/URL change aussi. On vérifie qu'aucune
+      // autre fiche n'occupe déjà le nouvel id, puis on recrée + supprime
+      // l'ancienne (l'id est clé primaire, donc non modifiable en place).
+      const clash = await db.select({ id: plantes.id }).from(plantes).where(eq(plantes.id, newId)).get();
+      if (clash) {
+        return new Response(
+          JSON.stringify({ message: `Une autre fiche utilise déjà « ${latin_name} ».` }),
+          { status: 409 },
+        );
+      }
+      await db.batch(
+        [
+          db.insert(plantes).values({ id: newId, ...payload }),
+          db.delete(plantes).where(eq(plantes.id, id)),
+        ],
+        'write',
+      );
+    }
 
     // Le référentiel s'enrichit (upsert) comme à la création.
     if (referentiel) {
@@ -46,9 +78,9 @@ export const POST: APIRoute = async ({ request }) => {
         .run();
     }
 
-    console.log('✅ Fiche mise à jour :', id);
+    console.log('✅ Fiche mise à jour :', id, newId !== id ? `(renommée → ${newId})` : '');
 
-    return new Response(JSON.stringify({ message: 'Fiche mise à jour !', slug: id }), {
+    return new Response(JSON.stringify({ message: 'Fiche mise à jour !', slug: newId }), {
       status: 200,
     });
   } catch (error: any) {
