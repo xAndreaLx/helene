@@ -48,3 +48,31 @@ export async function getPlante(id: string): Promise<Plante | undefined> {
   const row = await db.select().from(plantes).where(eq(plantes.id, id)).get();
   return row ? normalize(row) : undefined;
 }
+
+const slugify = (s: string) =>
+  s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+export type Famille = { famille: string; slug: string; species: Plante[] };
+
+// Familles dérivées des plantes (via classification.famille), triées, avec leurs espèces.
+export async function getFamilles(): Promise<Famille[]> {
+  const plantes = await getPlantes();
+  const map = new Map<string, Plante[]>();
+  for (const p of plantes) {
+    const fam = p.sections?.classification?.famille?.[0];
+    if (!fam) continue;
+    if (!map.has(fam)) map.set(fam, []);
+    map.get(fam)!.push(p);
+  }
+  return [...map.entries()]
+    .map(([famille, species]) => ({
+      famille,
+      slug: slugify(famille),
+      species: species.sort((a, b) => a.latin_name.localeCompare(b.latin_name)),
+    }))
+    .sort((a, b) => a.famille.localeCompare(b.famille));
+}
+
+export async function getFamille(slug: string): Promise<Famille | undefined> {
+  return (await getFamilles()).find((f) => f.slug === slug);
+}
