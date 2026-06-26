@@ -33,3 +33,6 @@ pnpm-debug.log*
 
 # editor swap files
 *.swp
+
+# images de travail du scaffold (hébergées sur Cloudinary en prod)
+public/plantes/

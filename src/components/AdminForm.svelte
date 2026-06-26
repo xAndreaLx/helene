@@ -11,7 +11,66 @@
     common_name: plante?.common_name ?? '',
     latin_name: plante?.latin_name ?? '',
     description: plante?.description ?? '',
+    image_ref: plante?.image_ref ?? '',
   };
+
+  // --- Upload d'image vers Cloudinary (preset non signé) ---
+  // Cloudinary accepte un fichier OU une URL distante (qu'il rapatrie et stocke).
+  // Dans les deux cas, on récupère une URL Cloudinary qu'on possède (pas de hotlink).
+  const CLOUD = import.meta.env.PUBLIC_CLOUDINARY_CLOUD_NAME;
+  const PRESET = import.meta.env.PUBLIC_CLOUDINARY_UPLOAD_PRESET;
+  let uploading = false;
+  let imageUrl = ''; // saisie de l'URL à importer
+
+  // Envoie un fichier/blob à Cloudinary et renvoie l'URL hébergée.
+  async function uploadToCloudinary(blob) {
+    const form = new FormData();
+    form.append('file', blob);
+    form.append('upload_preset', PRESET);
+    const res = await fetch(`https://api.cloudinary.com/v1_1/${CLOUD}/image/upload`, {
+      method: 'POST',
+      body: form,
+    });
+    const json = await res.json();
+    if (!json.secure_url) throw new Error(json.error?.message || 'Échec du téléversement');
+    return json.secure_url;
+  }
+
+  // Wrapper commun : gère l'état, les erreurs et l'écriture dans image_ref.
+  async function run(task) {
+    if (!CLOUD || !PRESET) {
+      notify('Cloudinary non configuré (variables PUBLIC_CLOUDINARY_*)', 'error');
+      return;
+    }
+    uploading = true;
+    try {
+      plant.image_ref = await task();
+      imageUrl = '';
+      notify('Image importée dans Cloudinary !');
+    } catch (err) {
+      console.error(err);
+      notify(err.message || 'Erreur lors de l\'import', 'error');
+    } finally {
+      uploading = false;
+    }
+  }
+
+  function onFileSelected(event) {
+    const file = event.target.files?.[0];
+    if (file) run(() => uploadToCloudinary(file));
+  }
+
+  // Le navigateur récupère l'image (Wikimedia accepte les requêtes navigateur),
+  // puis on envoie le blob à Cloudinary — évite le fetch serveur de Cloudinary (429).
+  function importFromUrl() {
+    const url = imageUrl.trim();
+    if (!url) return;
+    run(async () => {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`Téléchargement impossible (HTTP ${res.status})`);
+      return uploadToCloudinary(await res.blob());
+    });
+  }
 
   // Initialisation des sections : on crée un tableau pour chaque champ du
   // référentiel, pré-rempli avec les valeurs de la fiche en mode édition.
@@ -112,6 +171,22 @@
         <label>Nom latin <span class="hint">{isEdit ? '(non modifiable — identifiant)' : '(identifiant unique)'}</span></label>
         <input type="text" bind:value={plant.latin_name} placeholder="ex: Hypericum perforatum" required disabled={isEdit} />
       </div>
+    </div>
+
+    <div class="field-group image-field">
+      <label>Image</label>
+      {#if plant.image_ref}
+        <div class="image-preview">
+          <img src={plant.image_ref} alt="Aperçu" />
+          <button type="button" class="remove-img" on:click={() => (plant.image_ref = '')}>Retirer</button>
+        </div>
+      {/if}
+      <input type="file" accept="image/*" on:change={onFileSelected} disabled={uploading} />
+      <div class="url-import">
+        <input type="text" bind:value={imageUrl} placeholder="…ou importe depuis une URL (Wikimedia Commons, etc.)" disabled={uploading} />
+        <button type="button" on:click={importFromUrl} disabled={uploading || !imageUrl.trim()}>Importer</button>
+      </div>
+      {#if uploading}<span class="hint">Import dans Cloudinary…</span>{/if}
     </div>
   </section>
 
@@ -235,6 +310,54 @@
     background: #1b5e20;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .image-field { margin-top: 1.5rem; }
+
+  .url-import {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .url-import input { flex: 1; }
+
+  .url-import button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0 1rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .url-import button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .image-preview {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .image-preview img {
+    max-height: 160px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .remove-img {
+    background: none;
+    border: 1px solid #ef9a9a;
+    color: #c62828;
+    border-radius: 6px;
+    padding: 0.3rem 0.7rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    align-self: center;
   }
 
   /* Bouton de suppression (action destructive, discret) */
