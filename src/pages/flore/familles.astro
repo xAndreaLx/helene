@@ -8,12 +8,15 @@ const familles = await getFamilles();
 ---
 
 <MainLayout title="Familles botaniques">
-  <h1>Familles botaniques</h1>
-  <p class="intro">{familles.length} familles représentées dans la collection.</p>
+  <header class="page-head">
+    <p class="kicker">Classification</p>
+    <h1>Familles botaniques</h1>
+    <p class="lede">{familles.length} familles représentées dans l'herbier.</p>
+  </header>
 
   <ul class="familles-grid">
     {familles.map((f) => (
-      <li>
+      <li class="card">
         <a href={`/flore/famille/${f.slug}`}>
           <span class="nom">{f.famille}</span>
           <span class="count">{f.species.length} {f.species.length > 1 ? 'espèces' : 'espèce'}</span>
@@ -24,35 +27,37 @@ const familles = await getFamilles();
 </MainLayout>
 
 <style>
-  h1 { color: #1b5e20; }
-  .intro { color: #666; margin-bottom: 2rem; }
+  .page-head { text-align: center; margin-bottom: 2rem; }
+  .kicker {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+    color: var(--gold);
+    margin: 0 0 0.2rem;
+  }
+  .page-head h1 { margin: 0 0 0.3rem; }
+  .lede { color: var(--ink-soft); margin: 0; font-size: 1.15rem; }
 
   .familles-grid {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 1rem;
   }
 
+  .familles-grid .card { transition: transform 0.18s, box-shadow 0.2s, border-color 0.2s; }
+  .familles-grid .card:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-left-color: var(--madder); }
   .familles-grid a {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    padding: 1rem;
-    border: 1px solid #c8e6c9;
-    border-left: 4px solid #2e7d32;
-    border-radius: 10px;
-    background: #f9fbf9;
+    padding: 1.1rem 1.2rem;
     text-decoration: none;
-    transition: all 0.2s;
   }
 
-  .familles-grid a:hover {
-    background: #e8f5e9;
-    transform: translateY(-2px);
-  }
-
-  .nom { font-weight: 600; color: #2e7d32; }
-  .count { font-size: 0.85rem; color: #777; }
+  .nom { font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; color: var(--forest); }
+  .count { font-size: 0.9rem; color: var(--ink-soft); }
 </style>

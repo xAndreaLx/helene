@@ -1,22 +1,176 @@
 ---
-import MainLayout from '../layouts/MainLayout.astro';
-import { getCollection } from 'astro:content';
+export const prerender = false;
 
-// On récupère la collection 'flore' définie dans le config.ts
-const toutesLesPlantes = await getCollection('flore');
+import MainLayout from '../layouts/MainLayout.astro';
+import { getPlantes, getFamilles } from '../db/plantes';
+
+const plantes = await getPlantes();
+const familles = await getFamilles();
+
+const parNiveau = (n: number) => plantes.filter((p) => p.niveau === n).length;
+
+// Quelques espèces illustrées, au hasard, pour l'aperçu.
+const vedettes = plantes
+  .filter((p) => p.image_ref)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 6);
+
+const portes = [
+  { href: '/flore', titre: 'La Flore', desc: `Parcourir les ${plantes.length} espèces de l'herbier.`, mark: '🌸' },
+  { href: '/flore/familles', titre: 'Les Familles', desc: `${familles.length} familles botaniques classées.`, mark: '🌿' },
+  { href: '/flore/theorie', titre: 'La Théorie', desc: 'Feuilles, inflorescences & vocabulaire.', mark: '📖' },
+];
 ---
 
-<MainLayout title="Mon Herbier">
-  <h1>Ma collection ({toutesLesPlantes.length} plantes)</h1>
+<MainLayout title="Accueil">
+  <section class="hero">
+    <p class="kicker">Herbier botanique</p>
+    <h1>Le Règne Végétal</h1>
+    <p class="lede">
+      Un herbier vivant, cultivé fiche après fiche — flore de Suisse et d'ailleurs,
+      illustrée de planches anciennes et classée à la manière des botanistes.
+    </p>
+    <div class="actions">
+      <a class="btn" href="/flore">Explorer la flore</a>
+      <a class="btn btn--outline" href="/flore/familles">Par famille</a>
+    </div>
+  </section>
 
-  <ul>
-    {toutesLesPlantes.map(plante => (
-      <li>
-        {/* L'URL sera /flore/pissenlit */}
-        <a href={`/flore/${plante.id}`}>
-          <strong>{plante.data.common_name}</strong> (<i>{plante.data.latin_name}</i>)
-        </a>
-      </li>
+  <div class="ornament"><span class="leaf">❦</span></div>
+
+  <section class="stats" aria-label="Aperçu de la collection">
+    <div><span class="num">{plantes.length}</span><span class="lab">espèces</span></div>
+    <div><span class="num">{familles.length}</span><span class="lab">familles</span></div>
+    <div><span class="num n2">{parNiveau(200)}</span><span class="lab">niveau 200</span></div>
+    <div><span class="num n4">{parNiveau(400)}</span><span class="lab">niveau 400</span></div>
+    <div><span class="num n6">{parNiveau(600)}</span><span class="lab">niveau 600</span></div>
+  </section>
+
+  <section class="portes">
+    {portes.map((p) => (
+      <a class="card porte" href={p.href}>
+        <span class="porte-mark">{p.mark}</span>
+        <span class="porte-titre">{p.titre}</span>
+        <span class="porte-desc">{p.desc}</span>
+      </a>
     ))}
-  </ul>
+  </section>
+
+  {vedettes.length > 0 && (
+    <>
+      <div class="ornament"><span class="leaf">❧</span></div>
+      <section class="apercu">
+        <h2>Au hasard de l'herbier</h2>
+        <ul class="galerie">
+          {vedettes.map((p) => (
+            <li>
+              <a href={`/flore/${p.id}`}>
+                <span class="vignette" style={`background-image:url('${p.image_ref}')`}></span>
+                <span class="g-nom">{p.common_name}</span>
+                <span class="g-latin"><i>{p.latin_name}</i></span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
+  )}
 </MainLayout>
+
+<style>
+  .hero {
+    text-align: center;
+    padding: 1rem 0 0.5rem;
+  }
+  .kicker {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.95rem;
+    color: var(--gold);
+    margin: 0 0 0.4rem;
+  }
+  .hero h1 { margin: 0 0 0.5rem; }
+  .lede {
+    max-width: 640px;
+    margin: 0 auto 1.6rem;
+    font-size: 1.25rem;
+    color: var(--ink-soft);
+  }
+  .actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.4rem;
+    padding: 0.5rem 0 1rem;
+  }
+  .stats div { display: flex; flex-direction: column; align-items: center; }
+  .stats .num {
+    font-family: var(--font-display);
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--forest);
+    line-height: 1;
+  }
+  .stats .num.n2 { color: var(--niv-200); }
+  .stats .num.n4 { color: var(--niv-400); }
+  .stats .num.n6 { color: var(--niv-600); }
+  .stats .lab {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ink-soft);
+  }
+
+  .portes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.4rem;
+    margin: 1.5rem 0;
+  }
+  .porte {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.6rem 1.4rem;
+    text-decoration: none;
+    color: var(--ink);
+    transition: transform 0.18s, box-shadow 0.2s, border-color 0.2s;
+  }
+  .porte:hover { transform: translateY(-3px); box-shadow: var(--shadow); border-left-color: var(--madder); }
+  .porte-mark { font-size: 1.7rem; }
+  .porte-titre { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; color: var(--forest); }
+  .porte-desc { color: var(--ink-soft); font-size: 1rem; }
+
+  .apercu h2 { text-align: center; }
+  .galerie {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.2rem;
+  }
+  .galerie a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--ink);
+  }
+  .vignette {
+    display: block;
+    aspect-ratio: 3 / 4;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--parchment-2);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.18s;
+  }
+  .galerie a:hover .vignette { transform: translateY(-3px); }
+  .g-nom { font-family: var(--font-display); font-weight: 600; color: var(--forest); margin-top: 0.5rem; line-height: 1.2; }
+  .g-latin { font-size: 0.9rem; color: var(--ink-soft); }
+</style>

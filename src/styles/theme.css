@@ -1,0 +1,163 @@
+/* ============================================================
+   Règne Végétal — thème botanique (Arts & Crafts / William Morris)
+   Tokens + base typographique + classes réutilisables.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+:root {
+  /* Palette : parchemin, verts forêt/feuillage, garance, ocre, indigo profond. */
+  --parchment: #f3eddd;
+  --parchment-2: #eae0c9;
+  --cream: #fbf7ec;
+  --ink: #2c281f;
+  --ink-soft: #6a6353;
+
+  --forest: #2f4733;
+  --forest-deep: #243829;
+  --leaf: #4e7350;
+  --sage: #8a965b;
+  --madder: #9d3b2c;
+  --madder-soft: #b9583f;
+  --gold: #b5862c;
+  --indigo: #294349;
+
+  --line: #d8c9a8;
+  --line-soft: #e6dcc4;
+
+  /* Niveaux de certification */
+  --niv-200: #4e7350;
+  --niv-400: #b5862c;
+  --niv-600: #9d3b2c;
+
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+
+  --shadow: 0 10px 30px rgba(36, 56, 41, 0.10);
+  --shadow-sm: 0 4px 14px rgba(36, 56, 41, 0.08);
+  --radius: 4px;
+}
+
+/* Motif de feuillage en treillis, réutilisé en data-URI (clair pour fonds sombres). */
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background-color: var(--parchment);
+  /* Texture de feuillage très discrète sur le parchemin. */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cg fill='none' stroke='%234e7350' stroke-opacity='0.06' stroke-width='1.4'%3E%3Cpath d='M60 0 C 40 30 80 30 60 60 C 40 90 80 90 60 120'/%3E%3Cpath d='M60 22 C 44 18 40 6 40 6'/%3E%3Cpath d='M60 22 C 76 18 80 6 80 6'/%3E%3Cpath d='M60 60 C 44 56 40 44 40 44'/%3E%3Cpath d='M60 60 C 76 56 80 44 80 44'/%3E%3Cpath d='M0 60 C 30 40 30 80 60 60'/%3E%3Cpath d='M120 60 C 90 40 90 80 60 60'/%3E%3C/g%3E%3C/svg%3E");
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 1.12rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Typographie ---------- */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--forest);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.6em;
+}
+
+h1 { font-size: clamp(2.4rem, 5vw, 3.4rem); letter-spacing: 0.5px; }
+h2 { font-size: clamp(1.7rem, 3vw, 2.2rem); }
+h3 { font-size: 1.4rem; }
+
+a { color: var(--madder); text-decoration-color: var(--line); text-underline-offset: 3px; }
+a:hover { color: var(--madder-soft); }
+
+p { margin: 0 0 1rem; }
+i, em { font-style: italic; }
+
+::selection { background: var(--sage); color: var(--cream); }
+
+/* ---------- Ornement (séparateur feuillu) ---------- */
+.ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2.5rem 0;
+  color: var(--sage);
+}
+.ornament::before,
+.ornament::after {
+  content: '';
+  height: 1px;
+  flex: 1;
+  max-width: 180px;
+  background: linear-gradient(to var(--dir, right), transparent, var(--line));
+}
+.ornament::after { --dir: left; }
+.ornament .leaf {
+  font-size: 1.4rem;
+  color: var(--leaf);
+  line-height: 1;
+}
+
+/* ---------- Boutons ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  padding: 0.55rem 1.4rem;
+  border-radius: var(--radius);
+  border: 1.5px solid var(--forest);
+  background: var(--forest);
+  color: var(--cream);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+.btn:hover {
+  background: var(--forest-deep);
+  color: var(--cream);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+.btn--outline {
+  background: transparent;
+  color: var(--forest);
+  border-color: var(--leaf);
+}
+.btn--outline:hover {
+  background: var(--cream);
+  color: var(--forest);
+}
+
+/* ---------- Cartes ---------- */
+.card {
+  background: var(--cream);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--leaf);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---------- Pastilles de niveau ---------- */
+.badge-niv {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--cream);
+  border-radius: var(--radius);
+  padding: 0.05rem 0.45rem;
+  line-height: 1.5;
+}
+.badge-niv.niv-200 { background: var(--niv-200); }
+.badge-niv.niv-400 { background: var(--niv-400); }
+.badge-niv.niv-600 { background: var(--niv-600); }
+
+/* ---------- Conteneur ---------- */
+.prose { max-width: 760px; margin-inline: auto; }

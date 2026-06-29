@@ -5,7 +5,9 @@ import MainLayout from '../layouts/MainLayout.astro';
 <MainLayout title="À propos">
 
 <article class="poeme">
-  <h2>Hélène ou le Règne Végétal</h2>
+  <p class="kicker">À propos</p>
+  <h1>Hélène ou le Règne Végétal</h1>
+  <div class="ornament"><span class="leaf">❦</span></div>
 
   <div class="strophe">
     <p>Tu es dans un jardin et tu es sur mes lèvres</p>
@@ -41,9 +43,31 @@ import MainLayout from '../layouts/MainLayout.astro';
     <p>Je t'attendrai cent ans mais déjà tu es mienne</p>
     <p>Par toutes ces prairies que tu portes en toi.</p>
   </div>
-      <br>
-    <p><i>René Guy Cadou</p>
+  <p class="signature"><i>— René Guy Cadou</i></p>
 </article>
 
-
+<style>
+  .poeme { max-width: 640px; margin: 0 auto; text-align: center; }
+  .kicker {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+    color: var(--gold);
+    margin: 0 0 0.2rem;
+  }
+  .poeme h1 { margin: 0; }
+  .strophe p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.9;
+    color: var(--ink);
+  }
+  .signature {
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    color: var(--ink-soft);
+    margin-top: 2rem;
+  }
+</style>
 </MainLayout>

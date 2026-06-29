@@ -1,63 +1,123 @@
 ---
+import '../styles/theme.css';
 import Toast from '../components/Toast.svelte';
 const { title } = Astro.props;
+
+const path = Astro.url.pathname;
+const links = [
+  { href: '/', label: 'Accueil' },
+  { href: '/flore', label: 'Flore' },
+  { href: '/flore/familles', label: 'Familles' },
+  { href: '/about', label: 'À propos' },
+  { href: '/admin', label: 'Admin' },
+];
+const isActive = (href: string) =>
+  href === '/' ? path === '/' : path.startsWith(href);
 ---
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <meta name="viewport" content="width=device-width" />
-        <title>{title} | Règne Végétal</title>
-    </head>
-    <body>
-        <nav>
-            <div class="logo">🌿 Règne Végétal</div>
-            <ul>
-                <li><a href="/">Accueil</a></li>
-                <li><a href="/flore">Flore</a></li>
-                <li><a href="/faune">Faune</a></li>
-                <li><a href="/poesie">Poésie</a></li>
-                <li><a href="/about">À propos</a></li>
-                <li><a href="/admin">Admin</a></li>
-
-
-            </ul>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | Règne Végétal</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="/">
+          <span class="logo-mark">❦</span>
+          <span class="logo-text">Règne Végétal</span>
+        </a>
+        <nav aria-label="Navigation principale">
+          <ul>
+            {links.map((l) => (
+              <li>
+                <a href={l.href} class={isActive(l.href) ? 'active' : ''}>{l.label}</a>
+              </li>
+            ))}
+          </ul>
         </nav>
+      </div>
+    </header>
 
-        <main>
-            <Toast client:load />
-            <slot /> <!-- C'est ici que le contenu de tes pages sera injecté -->
-        </main>
+    <main>
+      <Toast client:load />
+      <slot />
+    </main>
 
-        <style>
-            nav {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 1rem 2rem;
-                background: #2d3436;
-                color: white;
-            }
-            ul {
-                display: flex;
-                list-style: none;
-                gap: 20px;
-            }
-            a {
-                color: white;
-                text-decoration: none;
-                font-weight: bold;
-            }
-            a:hover {
-                color: #55efc4;
-            }
-            main {
-                padding: 2rem;
-                max-width: 800px;
-                margin: 0 auto;
-            }
-        </style>
-    </body>
+    <footer class="site-footer">
+      <div class="ornament"><span class="leaf">❧</span></div>
+      <p>Règne Végétal — herbier botanique · cultivé avec patience 🌿</p>
+    </footer>
+
+    <style>
+      .site-header {
+        background: var(--forest);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='%23fbf7ec' stroke-opacity='0.08' stroke-width='1.3'%3E%3Cpath d='M50 0 C 34 25 66 25 50 50 C 34 75 66 75 50 100'/%3E%3Cpath d='M50 18 C 36 14 32 4 32 4'/%3E%3Cpath d='M50 18 C 64 14 68 4 68 4'/%3E%3Cpath d='M50 50 C 36 46 32 36 32 36'/%3E%3Cpath d='M50 50 C 64 46 68 36 68 36'/%3E%3C/g%3E%3C/svg%3E");
+        border-bottom: 3px solid var(--gold);
+        box-shadow: var(--shadow-sm);
+      }
+      .header-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+      }
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        text-decoration: none;
+        color: var(--cream);
+      }
+      .logo-mark { color: var(--gold); font-size: 1.6rem; line-height: 1; }
+      .logo-text {
+        font-family: var(--font-display);
+        font-size: 1.85rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+      nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 1.6rem;
+        margin: 0;
+        padding: 0;
+      }
+      nav a {
+        font-family: var(--font-display);
+        font-size: 1.18rem;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: var(--cream);
+        text-decoration: none;
+        padding-bottom: 3px;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.2s, color 0.2s;
+      }
+      nav a:hover { color: #fff; border-bottom-color: var(--gold); }
+      nav a.active { color: #fff; border-bottom-color: var(--gold); }
+
+      main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 2.5rem 1.5rem 3rem;
+      }
+
+      .site-footer {
+        text-align: center;
+        color: var(--ink-soft);
+        font-style: italic;
+        padding: 1rem 1.5rem 2.5rem;
+      }
+      .site-footer .ornament { margin: 0 auto 0.8rem; max-width: 600px; }
+      .site-footer p { margin: 0; font-size: 0.95rem; }
+    </style>
+  </body>
 </html>
-
