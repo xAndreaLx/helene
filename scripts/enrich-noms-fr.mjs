@@ -58,10 +58,13 @@ async function queryBatch(names) {
 
 // Choisit le meilleur nom FR pour un taxon (ou null). `key` = nom latin interrogé,
 // pour rejeter un titre/label identique au nom scientifique.
+// Retire le suffixe de désambiguïsation de Wikipédia : "Absinthe (plante)" → "Absinthe".
+const stripDisamb = (s) => s.replace(/\s*\([^)]*\)\s*$/, '').trim();
+
 function frName(key, entry) {
   if (!entry) return null;
   const isLatin = (v) => v.toLowerCase() === key.toLowerCase();
-  if (entry.wp && !isLatin(entry.wp)) return entry.wp;
+  if (entry.wp && !isLatin(entry.wp)) return stripDisamb(entry.wp);
   if (entry.p1843.length) return cap(entry.p1843[0].split(',')[0].trim());
   if (entry.label && !isLatin(entry.label)) return cap(entry.label);
   return null;

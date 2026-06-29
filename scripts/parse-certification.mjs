@@ -19,6 +19,17 @@ const STARS_TO_NIVEAU = { 3: 200, 2: 400, 1: 600 };
 const data = new Uint8Array(readFileSync(PDF));
 const { text } = await new PDFParse({ data }).getText();
 
+// Correction de ligature : l'extraction PDF rend "ti" par un "U" capital.
+// On remplace les "U" internes (jamais l'initiale : Urtica, Ulmus, Ulmaceae).
+const fixTi = (s) => s.replace(/(?<![\s])(?<=.)U/g, 'ti');
+
+// Manglings résiduels (ligatures tt/tti) que la règle ci-dessus ne couvre pas.
+const LATIN_FIX = {
+  'Achillea erba-roGa subsp. moschata': 'Achillea erba-rotta subsp. moschata',
+  'Melils melissophyllum': 'Melittis melissophyllum',
+  'Neola nidus-avis': 'Neottia nidus-avis',
+};
+
 const seen = new Set();
 const especes = [];
 
@@ -31,9 +42,9 @@ for (const rawLine of text.split('\n')) {
   // La 2ᵉ colonne doit être une famille botanique (suffixe -aceae).
   if (!/aceae$/.test(family)) continue;
 
-  // Correction de ligature : l'extraction PDF rend "ti" par un "U" capital.
-  // On remplace les "U" internes (jamais l'initiale de genre : Urtica, Ulmus).
-  latin_name = latin_name.replace(/(?<![\s])(?<=.)U/g, 'ti');
+  latin_name = fixTi(latin_name);
+  latin_name = LATIN_FIX[latin_name] ?? latin_name;
+  family = fixTi(family); // ex. GenUanaceae → Gentianaceae
 
   // Le nombre d'étoiles donne le niveau de certification.
   const stars = rest.filter((c) => c === '*').length;

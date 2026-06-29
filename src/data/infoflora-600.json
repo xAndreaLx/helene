@@ -1131,42 +1131,42 @@
   },
   {
     "latin_name": "Gentiana acaulis",
-    "family": "GenUanaceae",
+    "family": "Gentianaceae",
     "niveau": 200
   },
   {
     "latin_name": "Gentiana campestris",
-    "family": "GenUanaceae",
+    "family": "Gentianaceae",
     "niveau": 600
   },
   {
     "latin_name": "Gentiana clusii",
-    "family": "GenUanaceae",
+    "family": "Gentianaceae",
     "niveau": 400
   },
   {
     "latin_name": "Gentiana germanica",
-    "family": "GenUanaceae",
+    "family": "Gentianaceae",
     "niveau": 600
   },
   {
     "latin_name": "Gentiana lutea",
-    "family": "GenUanaceae",
+    "family": "Gentianaceae",
     "niveau": 600
   },
   {
     "latin_name": "Gentiana punctata",
-    "family": "GenUanaceae",
+    "family": "Gentianaceae",
     "niveau": 600
   },
   {
     "latin_name": "Gentiana purpurea",
-    "family": "GenUanaceae",
+    "family": "Gentianaceae",
     "niveau": 600
   },
   {
     "latin_name": "Gentiana verna",
-    "family": "GenUanaceae",
+    "family": "Gentianaceae",
     "niveau": 600
   },
   {
@@ -1941,12 +1941,12 @@
   },
   {
     "latin_name": "Pinguicula alpina",
-    "family": "LenUbulariaceae",
+    "family": "Lentibulariaceae",
     "niveau": 600
   },
   {
     "latin_name": "Pinguicula vulgaris",
-    "family": "LenUbulariaceae",
+    "family": "Lentibulariaceae",
     "niveau": 400
   },
   {
@@ -2176,7 +2176,7 @@
   },
   {
     "latin_name": "Pteridium aquilinum",
-    "family": "DennstaedUaceae",
+    "family": "Dennstaedtiaceae",
     "niveau": 200
   },
   {
@@ -2826,7 +2826,7 @@
   },
   {
     "latin_name": "Urtica dioica",
-    "family": "UrUcaceae",
+    "family": "Urticaceae",
     "niveau": 200
   },
   {
