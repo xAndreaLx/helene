@@ -16,6 +16,8 @@ export type Plante = {
   description: string;
   image_ref?: string;
   image_source?: string;
+  // Niveau de certification SBS/InfoFlora (200 | 400 | 600), si renseigné.
+  niveau?: number;
   // Sections botaniques (classification, appareil_vegetatif, ...).
   sections: Record<string, Section>;
 };
@@ -26,7 +28,7 @@ type PlanteRow = typeof plantes.$inferSelect;
 // champs image de la colonne JSON, le reste constitue les sections affichables.
 function normalize(row: PlanteRow): Plante {
   const data = (row.data ?? {}) as Record<string, unknown>;
-  const { image_ref, image_source, ...sections } = data;
+  const { image_ref, image_source, niveau, ...sections } = data;
 
   return {
     id: row.id,
@@ -35,6 +37,7 @@ function normalize(row: PlanteRow): Plante {
     description: row.description ?? '',
     image_ref: typeof image_ref === 'string' ? image_ref : undefined,
     image_source: typeof image_source === 'string' ? image_source : undefined,
+    niveau: typeof niveau === 'number' ? niveau : undefined,
     sections: sections as Record<string, Section>,
   };
 }

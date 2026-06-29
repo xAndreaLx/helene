@@ -1,0 +1,3002 @@
+[
+  {
+    "latin_name": "Abies alba",
+    "family": "Pinaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Acer campestre",
+    "family": "Sapindaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Acer opalus",
+    "family": "Sapindaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Acer platanoides",
+    "family": "Sapindaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Acer pseudoplatanus",
+    "family": "Sapindaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Achillea atrata",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Achillea erba-roGa subsp. moschata",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Achillea macrophylla",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Achillea millefolium",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Acinos alpinus",
+    "family": "Lamiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Aconitum lycoctonum",
+    "family": "Ranunculaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Aconitum napellus",
+    "family": "Ranunculaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Adenostyles alliariae",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Adenostyles alpina",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Aegopodium podagraria",
+    "family": "Apiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Agrostis capillaris",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Agrostis stolonifera",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Ajuga pyramidalis",
+    "family": "Lamiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Ajuga reptans",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Alchemilla pentaphyllea",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Alliaria petiolata",
+    "family": "Brassicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Allium schoenoprasum",
+    "family": "Amaryllidaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Allium ursinum",
+    "family": "Amaryllidaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Alnus glutinosa",
+    "family": "Betulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Alnus incana",
+    "family": "Betulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Alnus viridis",
+    "family": "Betulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Alopecurus pratensis",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Amelanchier ovalis",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Anagallis arvensis",
+    "family": "Primulaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Androsace alpina",
+    "family": "Primulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Androsace chamaejasme",
+    "family": "Primulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Androsace helvetica",
+    "family": "Primulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Androsace obtusifolia",
+    "family": "Primulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Anemone nemorosa",
+    "family": "Ranunculaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Antennaria dioica",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Anthericum liliago",
+    "family": "Asparagaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Anthoxanthum odoratum",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Anthriscus sylvestris",
+    "family": "Apiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Anthyllis vulneraria",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Aquilegia vulgaris",
+    "family": "Ranunculaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Arabidopsis thaliana",
+    "family": "Brassicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Arabis alpina",
+    "family": "Brassicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Arctium lappa",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Arctostaphylos uva-ursi",
+    "family": "Ericaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Arenaria biflora",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Arenaria serpyllifolia",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Arnica montana",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Arrhenatherum elatius",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Artemisia absinthium",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Artemisia campestris",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Artemisia vulgaris",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Arum maculatum",
+    "family": "Araceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Asarum europaeum",
+    "family": "Aristolochiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Asperula cynanchica",
+    "family": "Rubiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Asplenium ruta-muraria",
+    "family": "Aspleniaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Asplenium trichomanes",
+    "family": "Aspleniaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Asplenium viride",
+    "family": "Aspleniaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Aster alpinus",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Aster bellidiastrum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Astragalus alpinus",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Astragalus frigidus",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Astrantia major",
+    "family": "Apiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Athamanta cretensis",
+    "family": "Apiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Athyrium filix-femina",
+    "family": "Athyriaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Atropa bella-donna",
+    "family": "Solanaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Avenella flexuosa",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Bartsia alpina",
+    "family": "Orobanchaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Bellis perennis",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Berberis vulgaris",
+    "family": "Berberidaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Betula pendula",
+    "family": "Betulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Betula pubescens",
+    "family": "Betulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Biscutella laevigata",
+    "family": "Brassicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Blechnum spicant",
+    "family": "Blechnaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Botrychium lunaria",
+    "family": "Ophioglossaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Brachypodium pinnatum aggr.",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Brachypodium sylvaticum",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Briza media",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Bromus erectus",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Bromus hordeaceus",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Bromus sterilis",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Bromus tectorum",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Buddleja davidii",
+    "family": "Scrophulariaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Calamagrostis varia",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Calluna vulgaris",
+    "family": "Ericaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Caltha palustris",
+    "family": "Ranunculaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Calystegia sepium",
+    "family": "Convolvulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Campanula barbata",
+    "family": "Campanulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Campanula cochleariifolia",
+    "family": "Campanulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Campanula rhomboidalis",
+    "family": "Campanulaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Campanula rotundifolia",
+    "family": "Campanulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Campanula scheuchzeri",
+    "family": "Campanulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Campanula trachelium",
+    "family": "Campanulaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Capsella bursa-pastoris",
+    "family": "Brassicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cardamine heptaphylla",
+    "family": "Brassicaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Cardamine hirsuta",
+    "family": "Brassicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cardamine pratensis",
+    "family": "Brassicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cardamine resedifolia",
+    "family": "Brassicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carduus defloratus",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carduus personata",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex acutiformis",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carex atrata",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carex caryophyllea",
+    "family": "Cyperaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Carex curvula",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carex davalliana",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex digitata",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex echinata",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex elata",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex ferruginea",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carex firma",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carex flacca",
+    "family": "Cyperaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Carex flava",
+    "family": "Cyperaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Carex hirta",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex muricata aggr.",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex nigra",
+    "family": "Cyperaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Carex pallescens",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex panicea",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex parviflora",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carex pendula",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Carex sempervirens",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carex sylvatica",
+    "family": "Cyperaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Carlina acaulis",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Carpinus betulus",
+    "family": "Betulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Carum carvi",
+    "family": "Apiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Castanea sativa",
+    "family": "Fagaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Centaurea cyanus",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Centaurea jacea",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Centaurea montana",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Centaurea scabiosa",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cerastium arvense",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Cerastium fontanum",
+    "family": "Caryophyllaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cerastium latifolium",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Cerastium uniflorum",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Chaenorrhinum minus",
+    "family": "Plantaginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Chaerophyllum hirsutum",
+    "family": "Apiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Chelidonium majus",
+    "family": "Papaveraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Chenopodium album",
+    "family": "Amaranthaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Chenopodium bonus-henricus",
+    "family": "Amaranthaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Chrysosplenium alternifolium",
+    "family": "Saxifragaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Cicerbita alpina",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Cichorium intybus",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Circaea lutetiana",
+    "family": "Onagraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Cirsium arvense",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Cirsium oleraceum",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Cirsium spinosissimum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Clematis vitalba",
+    "family": "Ranunculaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Coeloglossum viride",
+    "family": "Orchidaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Colchicum autumnale",
+    "family": "Colchicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Consolida regalis",
+    "family": "Ranunculaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Convallaria majalis",
+    "family": "Asparagaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Convolvulus arvensis",
+    "family": "Convolvulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cornus mas",
+    "family": "Cornaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Cornus sanguinea",
+    "family": "Cornaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Corylus avellana",
+    "family": "Betulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cotoneaster integerrimus",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Crataegus laevigata",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Crataegus monogyna",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Crepis aurea",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Crepis biennis",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Crepis capillaris",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Crocus albiflorus",
+    "family": "Iridaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Cruciata laevipes",
+    "family": "Rubiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Cuscuta epithymum",
+    "family": "Convolvulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Cymbalaria muralis",
+    "family": "Plantaginaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cynosurus cristatus",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Cypripedium calceolus",
+    "family": "Orchidaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Cystopteris fragilis",
+    "family": "Cystopteridaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Dactylis glomerata",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Dactylorhiza maculata",
+    "family": "Orchidaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Daphne mezereum",
+    "family": "Thymelaeaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Daphne striata",
+    "family": "Thymelaeaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Daucus carota",
+    "family": "Apiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Deschampsia cespitosa",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Dianthus carthusianorum",
+    "family": "Caryophyllaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Dianthus superbus",
+    "family": "Caryophyllaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Dianthus sylvestris",
+    "family": "Caryophyllaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Digitalis grandiflora",
+    "family": "Plantaginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Dipsacus fullonum",
+    "family": "Caprifoliaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Doronicum clusii",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Doronicum grandiflorum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Draba aizoides",
+    "family": "Brassicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Drosera rotundifolia",
+    "family": "Droseraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Dryas octopetala",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Dryopteris filix-mas",
+    "family": "Dryopteridaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Echium vulgare",
+    "family": "Boraginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Elymus repens",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Elyna myosuroides",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Empetrum nigrum subsp. hermaphroditum",
+    "family": "Ericaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Epilobium angustifolium",
+    "family": "Onagraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Epilobium montanum",
+    "family": "Onagraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Equisetum arvense",
+    "family": "Equisetaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Equisetum hyemale",
+    "family": "Equisetaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Equisetum sylvaticum",
+    "family": "Equisetaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Equisetum telmateia",
+    "family": "Equisetaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Erica carnea",
+    "family": "Ericaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Erigeron alpinus",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Erigeron annuus",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Erigeron uniflorus",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Eriophorum angustifolium",
+    "family": "Cyperaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Eriophorum latifolium",
+    "family": "Cyperaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Eriophorum scheuchzeri",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Eriophorum vaginatum",
+    "family": "Cyperaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Erodium cicutarium",
+    "family": "Geraniaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Euonymus europaeus",
+    "family": "Celastraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Eupatorium cannabinum",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Euphorbia amygdaloides",
+    "family": "Euphorbiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Euphorbia cyparissias",
+    "family": "Euphorbiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Euphorbia helioscopia",
+    "family": "Euphorbiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Euphrasia minima",
+    "family": "Orobanchaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Euphrasia rostkoviana",
+    "family": "Orobanchaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Fagus sylvatica",
+    "family": "Fagaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Festuca arundinacea",
+    "family": "Poaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Festuca pratensis",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Festuca rubra",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Festuca valesiaca",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Filipendula ulmaria",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Fragaria vesca",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Frangula alnus",
+    "family": "Rhamnaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Fraxinus excelsior",
+    "family": "Oleaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Fraxinus ornus",
+    "family": "Oleaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Galanthus nivalis",
+    "family": "Amaryllidaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Galeopsis tetrahit",
+    "family": "Lamiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Galium anisophyllon",
+    "family": "Rubiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Galium aparine",
+    "family": "Rubiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Galium mollugo aggr.",
+    "family": "Rubiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Galium odoratum",
+    "family": "Rubiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Galium verum",
+    "family": "Rubiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Gentiana acaulis",
+    "family": "GenUanaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Gentiana campestris",
+    "family": "GenUanaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Gentiana clusii",
+    "family": "GenUanaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Gentiana germanica",
+    "family": "GenUanaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Gentiana lutea",
+    "family": "GenUanaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Gentiana punctata",
+    "family": "GenUanaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Gentiana purpurea",
+    "family": "GenUanaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Gentiana verna",
+    "family": "GenUanaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Geranium pyrenaicum",
+    "family": "Geraniaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Geranium robertianum",
+    "family": "Geraniaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Geranium rotundifolium",
+    "family": "Geraniaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Geranium sanguineum",
+    "family": "Geraniaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Geranium sylvaticum",
+    "family": "Geraniaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Geum montanum",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Geum rivale",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Geum urbanum",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Glechoma hederacea",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Globularia cordifolia",
+    "family": "Plantaginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Globularia nudicaulis",
+    "family": "Plantaginaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Gnaphalium supinum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Gnaphalium sylvaticum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Gymnadenia conopsea",
+    "family": "Orchidaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Gypsophila repens",
+    "family": "Caryophyllaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Hedera helix",
+    "family": "Araliaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Hedysarum hedysaroides",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Helianthemum alpestre",
+    "family": "Cistaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Helianthemum nummularium",
+    "family": "Cistaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Helictotrichon pubescens",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Helleborus foetidus",
+    "family": "Ranunculaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Heracleum sphondylium",
+    "family": "Apiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Herniaria glabra",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Hieracium murorum aggr.",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Hieracium pilosella",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Hieracium villosum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Hippocrepis comosa",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Hippophaë rhamnoides",
+    "family": "Elaeagnaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Holcus lanatus",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Homogyne alpina",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Hordeum murinum",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Humulus lupulus",
+    "family": "Cannabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Huperzia selago",
+    "family": "Lycopodiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Hypericum perforatum",
+    "family": "Hypericaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Ilex aquifolium",
+    "family": "Aquifoliaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Impatiens glandulifera",
+    "family": "Balsaminaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Impatiens noli-tangere",
+    "family": "Balsaminaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Impatiens parviflora",
+    "family": "Balsaminaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Iris pseudacorus",
+    "family": "Iridaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Iris sibirica",
+    "family": "Iridaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Juglans regia",
+    "family": "Juglandaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Juncus alpinoarticulatus",
+    "family": "Juncaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Juncus effusus",
+    "family": "Juncaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Juncus inflexus",
+    "family": "Juncaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Juncus trifidus",
+    "family": "Juncaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Juniperus communis subsp. alpina",
+    "family": "Cupressaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Juniperus communis subsp. communis",
+    "family": "Cupressaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Juniperus sabina",
+    "family": "Cupressaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Kernera saxatilis",
+    "family": "Brassicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Knautia arvensis",
+    "family": "Caprifoliaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Knautia dipsacifolia",
+    "family": "Caprifoliaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Laburnum anagyroides",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Lamium album",
+    "family": "Lamiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Lamium galeobdolon",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lamium maculatum",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lamium purpureum",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lapsana communis",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Larix decidua",
+    "family": "Pinaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Laserpitium latifolium",
+    "family": "Apiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Laserpitium siler",
+    "family": "Apiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Lathyrus pratensis",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lathyrus vernus",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Lemna minor",
+    "family": "Araceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Leontodon helveticus",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Leontodon hispidus",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Leontopodium alpinum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Leucanthemopsis alpina",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Leucanthemum adustum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Leucanthemum vulgare",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Leucojum vernum",
+    "family": "Amaryllidaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Ligusticum mutellina",
+    "family": "Apiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Ligustrum vulgare",
+    "family": "Oleaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lilium martagon",
+    "family": "Liliaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Linaria alpina",
+    "family": "Plantaginaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Linaria vulgaris",
+    "family": "Plantaginaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Linum catharticum",
+    "family": "Linaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Listera ovata",
+    "family": "Orchidaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lloydia serotina",
+    "family": "Liliaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Loiseleuria procumbens",
+    "family": "Ericaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Lolium multiflorum",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lolium perenne",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lonicera alpigena",
+    "family": "Caprifoliaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Lonicera caerulea",
+    "family": "Caprifoliaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Lonicera nigra",
+    "family": "Caprifoliaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Lonicera xylosteum",
+    "family": "Caprifoliaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lotus corniculatus",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lunaria annua",
+    "family": "Brassicaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Luzula campestris",
+    "family": "Juncaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Luzula lutea",
+    "family": "Juncaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Luzula pilosa",
+    "family": "Juncaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Luzula sylvatica",
+    "family": "Juncaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Lycopodium annotinum",
+    "family": "Lycopodiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Lysimachia nemorum",
+    "family": "Primulaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Maianthemum bifolium",
+    "family": "Asparagaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Malus sylvestris",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Malva neglecta",
+    "family": "Malvaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Malva sylvestris",
+    "family": "Malvaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Matricaria chamomilla",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Matricaria discoidea",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Medicago falcata",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Medicago lupulina",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Medicago sativa",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Melampyrum pratense",
+    "family": "Orobanchaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Melampyrum sylvaticum",
+    "family": "Orobanchaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Melica nutans",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Melilotus albus",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Melilotus officinalis",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Melils melissophyllum",
+    "family": "Lamiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Mercurialis annua",
+    "family": "Euphorbiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Mercurialis perennis",
+    "family": "Euphorbiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Milium effusum",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Minuartia sedoides",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Minuartia verna",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Molinia caerulea",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Myosotis alpestris",
+    "family": "Boraginaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Myosotis arvensis",
+    "family": "Boraginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Narcissus poëticus aggr.",
+    "family": "Amaryllidaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Narcissus pseudonarcissus",
+    "family": "Amaryllidaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Nardus stricta",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Neola nidus-avis",
+    "family": "Orchidaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Nigritella rhellicani aggr.",
+    "family": "Orchidaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Nuphar lutea",
+    "family": "Nymphaeaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Nymphaea alba",
+    "family": "Nymphaeaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Oenothera biennis aggr.",
+    "family": "Onagraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Onobrychis montana",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Onobrychis viciifolia",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Ophrys insectifera",
+    "family": "Orchidaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Orchis mascula",
+    "family": "Orchidaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Orchis ustulata",
+    "family": "Orchidaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Origanum vulgare",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Orobanche alba",
+    "family": "Orobanchaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Ostrya carpinifolia",
+    "family": "Betulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Oxalis acetosella",
+    "family": "Oxalidaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Oxyria digyna",
+    "family": "Polygonaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Oxytropis campestris",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Oxytropis jacquinii",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Papaver rhoeas",
+    "family": "Papaveraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Paris quadrifolia",
+    "family": "Melanthiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Parnassia palustris",
+    "family": "Celastraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Pedicularis foliosa",
+    "family": "Orobanchaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pedicularis tuberosa",
+    "family": "Orobanchaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pedicularis verticillata",
+    "family": "Orobanchaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Petasites albus",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Petasites hybridus",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Peucedanum ostruthium",
+    "family": "Apiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Phleum alpinum aggr.",
+    "family": "Poaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Phleum pratense aggr.",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Phragmites australis",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Phyllitis scolopendrium",
+    "family": "Aspleniaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Phyteuma betonicifolium",
+    "family": "Campanulaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Phyteuma hemisphaericum",
+    "family": "Campanulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Phyteuma orbiculare",
+    "family": "Campanulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Phyteuma spicatum",
+    "family": "Campanulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Picea abies",
+    "family": "Pinaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Pinguicula alpina",
+    "family": "LenUbulariaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pinguicula vulgaris",
+    "family": "LenUbulariaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Pinus cembra",
+    "family": "Pinaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pinus mugo subsp. mugo",
+    "family": "Pinaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pinus mugo subsp. uncinata",
+    "family": "Pinaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pinus sylvestris",
+    "family": "Pinaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Plantago alpina",
+    "family": "Plantaginaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Plantago atrata",
+    "family": "Plantaginaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Plantago lanceolata",
+    "family": "Plantaginaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Plantago major",
+    "family": "Plantaginaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Plantago media",
+    "family": "Plantaginaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Poa alpina",
+    "family": "Poaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Poa annua",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Poa bulbosa",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Poa pratensis",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Poa trivialis",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Polygala chamaebuxus",
+    "family": "Polygalaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Polygala vulgaris",
+    "family": "Polygalaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Polygonatum multiflorum",
+    "family": "Asparagaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Polygonatum odoratum",
+    "family": "Asparagaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Polygonatum verticillatum",
+    "family": "Asparagaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Polygonum aviculare aggr.",
+    "family": "Polygonaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Polygonum bistorta",
+    "family": "Polygonaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Polygonum persicaria",
+    "family": "Polygonaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Polygonum viviparum",
+    "family": "Polygonaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Polypodium vulgare",
+    "family": "Polypodiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Populus alba",
+    "family": "Salicaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Populus nigra",
+    "family": "Salicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Populus tremula",
+    "family": "Salicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Potentilla anserina",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Potentilla aurea",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Potentilla crantzii",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Potentilla erecta",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Potentilla reptans",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Potentilla sterilis",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Prenanthes purpurea",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Primula auricula",
+    "family": "Primulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Primula elatior",
+    "family": "Primulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Primula farinosa",
+    "family": "Primulaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Primula hirsuta",
+    "family": "Primulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Primula veris",
+    "family": "Primulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Pritzelago alpina",
+    "family": "Brassicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Prunella vulgaris",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Prunus avium",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Prunus mahaleb",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Prunus padus",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Prunus spinosa",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Pteridium aquilinum",
+    "family": "DennstaedUaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Pulmonaria obscura",
+    "family": "Boraginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Pulsatilla alpina subsp. alpina",
+    "family": "Ranunculaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pulsatilla alpina subsp. apiifolia",
+    "family": "Ranunculaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pulsatilla vernalis",
+    "family": "Ranunculaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Pyrus pyraster",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Quercus petraea",
+    "family": "Fagaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Quercus pubescens",
+    "family": "Fagaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Quercus robur",
+    "family": "Fagaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Ranunculus aconitifolius",
+    "family": "Ranunculaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Ranunculus acris",
+    "family": "Ranunculaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Ranunculus alpestris",
+    "family": "Ranunculaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Ranunculus bulbosus",
+    "family": "Ranunculaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Ranunculus ficaria",
+    "family": "Ranunculaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Ranunculus glacialis",
+    "family": "Ranunculaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Ranunculus kuepferi",
+    "family": "Ranunculaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Ranunculus montanus aggr.",
+    "family": "Ranunculaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Ranunculus platanifolius",
+    "family": "Ranunculaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Ranunculus repens",
+    "family": "Ranunculaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Reynoutria japonica",
+    "family": "Polygonaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Rhamnus cathartica",
+    "family": "Rhamnaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Rhinanthus alectorolophus",
+    "family": "Orobanchaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Rhinanthus minor",
+    "family": "Orobanchaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Rhododendron ferrugineum",
+    "family": "Ericaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Rhododendron hirsutum",
+    "family": "Ericaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Robinia pseudoacacia",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Rosa canina aggr.",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Rosa pendulina",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Rubus caesius",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Rubus idaeus",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Rumex acetosa",
+    "family": "Polygonaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Rumex alpinus",
+    "family": "Polygonaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Rumex obtusifolius",
+    "family": "Polygonaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Rumex scutatus",
+    "family": "Polygonaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Salix alba",
+    "family": "Salicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Salix appendiculata",
+    "family": "Salicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Salix caprea",
+    "family": "Salicaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Salix elaeagnos",
+    "family": "Salicaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Salix helvetica",
+    "family": "Salicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Salix herbacea",
+    "family": "Salicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Salix purpurea",
+    "family": "Salicaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Salix reticulata",
+    "family": "Salicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Salix retusa",
+    "family": "Salicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Salvia glutinosa",
+    "family": "Lamiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Salvia pratensis",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Sambucus nigra",
+    "family": "Adoxaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Sambucus racemosa",
+    "family": "Adoxaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Sanguisorba minor",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Sanicula europaea",
+    "family": "Apiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Saponaria ocymoides",
+    "family": "Caryophyllaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Saponaria officinalis",
+    "family": "Caryophyllaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Saxifraga aizoides",
+    "family": "Saxifragaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Saxifraga androsacea",
+    "family": "Saxifragaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Saxifraga bryoides",
+    "family": "Saxifragaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Saxifraga caesia",
+    "family": "Saxifragaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Saxifraga oppositifolia",
+    "family": "Saxifragaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Saxifraga paniculata",
+    "family": "Saxifragaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Saxifraga rotundifolia",
+    "family": "Saxifragaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Saxifraga stellaris",
+    "family": "Saxifragaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Scabiosa columbaria",
+    "family": "Caprifoliaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Schoenus nigricans",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Scirpus sylvaticus",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Securigera varia",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Sedum acre",
+    "family": "Crassulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Sedum album",
+    "family": "Crassulaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Sedum atratum",
+    "family": "Crassulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Sedum sexangulare",
+    "family": "Crassulaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Selaginella selaginoides",
+    "family": "Selaginellaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Sempervivum arachnoideum",
+    "family": "Crassulaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Sempervivum montanum",
+    "family": "Crassulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Senecio alpinus",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Senecio doronicum",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Senecio incanus",
+    "family": "Asteraceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Senecio vulgaris",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Sesleria caerulea",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Sibbaldia procumbens",
+    "family": "Rosaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Silene acaulis",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Silene dioica",
+    "family": "Caryophyllaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Silene flos-cuculi",
+    "family": "Caryophyllaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Silene nutans",
+    "family": "Caryophyllaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Silene pratensis",
+    "family": "Caryophyllaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Silene rupestris",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Silene vulgaris",
+    "family": "Caryophyllaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Sinapis arvensis",
+    "family": "Brassicaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Solanum dulcamara",
+    "family": "Solanaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Soldanella alpina",
+    "family": "Primulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Soldanella pusilla",
+    "family": "Primulaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Solidago canadensis",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Solidago gigantea",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Solidago virgaurea",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Sonchus oleraceus",
+    "family": "Asteraceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Sorbus aria",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Sorbus aucuparia",
+    "family": "Rosaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Sorbus torminalis",
+    "family": "Rosaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Spergularia rubra",
+    "family": "Caryophyllaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Stachys recta",
+    "family": "Lamiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Stachys sylvatica",
+    "family": "Lamiaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Stellaria media",
+    "family": "Caryophyllaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Stellaria nemorum",
+    "family": "Caryophyllaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Stipa pennata aggr.",
+    "family": "Poaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Symphytum officinale",
+    "family": "Boraginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Taraxacum officinale aggr.",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Taxus baccata",
+    "family": "Taxaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Teucrium chamaedrys",
+    "family": "Lamiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Teucrium montanum",
+    "family": "Lamiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Thalictrum aquilegiifolium",
+    "family": "Ranunculaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Thesium alpinum",
+    "family": "Santalaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Thlaspi arvense",
+    "family": "Brassicaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Thlaspi rotundifolium",
+    "family": "Brassicaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Thymus serpyllum aggr.",
+    "family": "Lamiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Tilia cordata",
+    "family": "Malvaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Tilia platyphyllos",
+    "family": "Malvaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Tofieldia calyculata",
+    "family": "Tofieldiaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Tragopogon pratensis",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Traunsteinera globosa",
+    "family": "Orchidaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Trichophorum cespitosum",
+    "family": "Cyperaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Trifolium alpinum",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Trifolium badium",
+    "family": "Fabaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Trifolium dubium",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Trifolium medium",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Trifolium montanum",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Trifolium pratense",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Trifolium repens",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Trisetum flavescens",
+    "family": "Poaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Trollius europaeus",
+    "family": "Ranunculaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Tulipa sylvestris",
+    "family": "Liliaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Tussilago farfara",
+    "family": "Asteraceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Typha latifolia",
+    "family": "Typhaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Ulmus glabra",
+    "family": "Ulmaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Ulmus minor",
+    "family": "Ulmaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Urtica dioica",
+    "family": "UrUcaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Vaccinium myrtillus",
+    "family": "Ericaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Vaccinium uliginosum aggr.",
+    "family": "Ericaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Vaccinium vitis-idaea",
+    "family": "Ericaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Valeriana montana",
+    "family": "Caprifoliaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Valeriana officinalis",
+    "family": "Caprifoliaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Valeriana tripteris",
+    "family": "Caprifoliaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Valerianella locusta",
+    "family": "Caprifoliaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Veratrum album",
+    "family": "Melanthiaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Verbascum lychnitis",
+    "family": "Scrophulariaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Verbascum thapsus",
+    "family": "Scrophulariaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Verbena officinalis",
+    "family": "Verbenaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Veronica arvensis",
+    "family": "Plantaginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Veronica beccabunga",
+    "family": "Plantaginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Veronica bellidioides",
+    "family": "Plantaginaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Veronica chamaedrys",
+    "family": "Plantaginaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Veronica filiformis",
+    "family": "Plantaginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Veronica fruticans",
+    "family": "Plantaginaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Veronica hederifolia",
+    "family": "Plantaginaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Veronica persica",
+    "family": "Plantaginaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Veronica urticifolia",
+    "family": "Plantaginaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Viburnum lantana",
+    "family": "Adoxaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Viburnum opulus",
+    "family": "Adoxaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Vicia cracca",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Vicia sativa",
+    "family": "Fabaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Vicia sepium",
+    "family": "Fabaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Vinca minor",
+    "family": "Apocynaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Vincetoxicum hirundinaria",
+    "family": "Apocynaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Viola arvensis",
+    "family": "Violaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Viola biflora",
+    "family": "Violaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Viola calcarata",
+    "family": "Violaceae",
+    "niveau": 600
+  },
+  {
+    "latin_name": "Viola hirta",
+    "family": "Violaceae",
+    "niveau": 400
+  },
+  {
+    "latin_name": "Viola reichenbachiana",
+    "family": "Violaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Viola tricolor",
+    "family": "Violaceae",
+    "niveau": 200
+  },
+  {
+    "latin_name": "Viscum album",
+    "family": "Santalaceae",
+    "niveau": 400
+  }
+]

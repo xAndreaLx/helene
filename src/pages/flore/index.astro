@@ -6,6 +6,18 @@ import { getPlantes } from '../../db/plantes';
 
 // Lecture directe en base : une plante ajoutée via /admin apparaît aussitôt.
 const toutesLesPlantes = await getPlantes();
+
+// Filtre par niveau de certification SBS/InfoFlora (200 / 400 / 600).
+const NIVEAUX = [200, 400, 600];
+const param = Astro.url.searchParams.get('niveau');
+const niveauActif = NIVEAUX.includes(Number(param)) ? Number(param) : null;
+
+const compte = (n: number | null) =>
+  n === null ? toutesLesPlantes.length : toutesLesPlantes.filter((p) => p.niveau === n).length;
+
+const plantes = niveauActif
+  ? toutesLesPlantes.filter((p) => p.niveau === niveauActif)
+  : toutesLesPlantes;
 ---
 
 <MainLayout title="Mon Herbier">
@@ -16,18 +28,76 @@ const toutesLesPlantes = await getPlantes();
   <a href="/flore/familles">Parcourir par famille botanique</a>
     <hr>
 
-  <h2>Ma collection ({toutesLesPlantes.length} plantes)</h2>
+  <h2>Ma collection ({plantes.length} plante{plantes.length > 1 ? 's' : ''})</h2>
 
-  <ul>
-    {toutesLesPlantes.map(plante => (
+  <nav class="filtres" aria-label="Filtrer par niveau de certification">
+    <a href="/flore" class={niveauActif === null ? 'actif' : ''}>Tous ({compte(null)})</a>
+    {NIVEAUX.map((n) => (
+      <a href={`/flore?niveau=${n}`} class={niveauActif === n ? 'actif' : ''}>
+        Niveau {n} ({compte(n)})
+      </a>
+    ))}
+  </nav>
+
+  <ul class="liste">
+    {plantes.map(plante => (
       <li>
-        {/* L'URL sera /flore/pissenlit */}
         <a href={`/flore/${plante.id}`}>
           <strong>{plante.common_name}</strong> (<i>{plante.latin_name}</i>)
         </a>
+        {plante.niveau && <span class={`badge niv-${plante.niveau}`}>{plante.niveau}</span>}
       </li>
     ))}
   </ul>
 
-  
 </MainLayout>
+
+<style>
+  .filtres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0 1.5rem;
+  }
+
+  .filtres a {
+    padding: 0.35rem 0.9rem;
+    border: 1px solid #c8e6c9;
+    border-radius: 999px;
+    text-decoration: none;
+    color: #2e7d32;
+    background: #f1f8e9;
+    font-size: 0.9rem;
+  }
+
+  .filtres a:hover { background: #e8f5e9; }
+
+  .filtres a.actif {
+    background: #2e7d32;
+    color: #fff;
+    border-color: #2e7d32;
+  }
+
+  .liste { list-style: none; padding: 0; }
+
+  .liste li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.3rem 0;
+  }
+
+  .badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    line-height: 1.4;
+  }
+
+  /* Couleurs des badges par niveau : 200 = le plus courant, 600 = le plus exigeant. */
+  .badge.niv-200 { background: #43a047; }
+  .badge.niv-400 { background: #fb8c00; }
+  .badge.niv-600 { background: #e53935; }
+</style>
