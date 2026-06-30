@@ -38,11 +38,20 @@ export const POST: APIRoute = async ({ request }) => {
 
     // Tout est éditable, y compris le nom latin (révisions taxonomiques :
     // Ranunculus ficaria → Ficaria verna).
-    const { common_name, latin_name, description, ...data } = plantData;
+    const { common_name, latin_name, description, ...formData } = plantData;
     const newId = slugify(latin_name);
     if (!newId) {
       return new Response(JSON.stringify({ message: 'Nom latin invalide.' }), { status: 400 });
     }
+
+    // Le formulaire admin ne pilote que les sections (classification,
+    // appareil_vegetatif, …) et les images. On FUSIONNE par-dessus le `data`
+    // existant au lieu de le remplacer, pour préserver les champs gérés par les
+    // scripts et absents du formulaire : `niveau` (certification InfoFlora),
+    // `sources` (provenance infoflora/sauvages) et `palier` ("Sauvages de ma rue").
+    // Sans cette fusion, toute édition d'une fiche effacerait silencieusement ces flags.
+    const existingData = (existing.data ?? {}) as Record<string, unknown>;
+    const data = { ...existingData, ...formData };
 
     const payload = { common_name, latin_name, description: description || '', data };
 
