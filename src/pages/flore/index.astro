@@ -12,13 +12,24 @@ const NIVEAUX = [200, 400, 600];
 const param = Astro.url.searchParams.get('niveau');
 const niveauActif = NIVEAUX.includes(Number(param)) ? Number(param) : null;
 
-const compte = (n: number | null) =>
-  n === null ? toutesLesPlantes.length : toutesLesPlantes.filter((p) => p.niveau === n).length;
+// Filtre "Sauvages de ma rue", par palier (1 = espèces les plus observées).
+const estSauvageP = (p: (typeof toutesLesPlantes)[number], pal: number) =>
+  (p.sources?.includes('sauvages') ?? false) && p.palier === pal;
+const sauvagesParam = Astro.url.searchParams.get('sauvages');
+const sauvageActif = sauvagesParam === '1' ? 1 : null;
 
-const plantes = (niveauActif
-  ? toutesLesPlantes.filter((p) => p.niveau === niveauActif)
-  : toutesLesPlantes
+const compteNiveau = (n: number) => toutesLesPlantes.filter((p) => p.niveau === n).length;
+const compteSauvage = (pal: number) => toutesLesPlantes.filter((p) => estSauvageP(p, pal)).length;
+
+const plantes = (
+  sauvageActif
+    ? toutesLesPlantes.filter((p) => estSauvageP(p, sauvageActif))
+    : niveauActif
+      ? toutesLesPlantes.filter((p) => p.niveau === niveauActif)
+      : toutesLesPlantes
 ).sort((a, b) => a.common_name.localeCompare(b.common_name, 'fr'));
+
+const aucunFiltre = niveauActif === null && sauvageActif === null;
 ---
 
 <MainLayout title="La Flore">
@@ -27,7 +38,8 @@ const plantes = (niveauActif
     <h1>La Flore</h1>
     <p class="lede">
       {plantes.length} espèce{plantes.length > 1 ? 's' : ''}
-      {niveauActif ? ` · niveau de certification ${niveauActif}` : ''}.
+      {niveauActif ? ` · niveau de certification ${niveauActif}` : ''}
+      {sauvageActif ? ` · Sauvages de ma rue (palier ${sauvageActif})` : ''}.
     </p>
     <nav class="sous-nav" aria-label="Sections de la flore">
       <a href="/flore/theorie">📖 Théorie botanique</a>
@@ -35,13 +47,16 @@ const plantes = (niveauActif
     </nav>
   </header>
 
-  <nav class="filtres" aria-label="Filtrer par niveau de certification">
-    <a href="/flore" class={niveauActif === null ? 'actif' : ''}>Toutes ({compte(null)})</a>
+  <nav class="filtres" aria-label="Filtrer les espèces">
+    <a href="/flore" class={aucunFiltre ? 'actif' : ''}>Toutes ({toutesLesPlantes.length})</a>
     {NIVEAUX.map((n) => (
       <a href={`/flore?niveau=${n}`} class={`niv-dot niv-${n} ${niveauActif === n ? 'actif' : ''}`}>
-        Niveau {n} ({compte(n)})
+        Niveau {n} ({compteNiveau(n)})
       </a>
     ))}
+    <a href="/flore?sauvages=1" class={`sauvage-dot ${sauvageActif === 1 ? 'actif' : ''}`}>
+      Sauvages P1 ({compteSauvage(1)})
+    </a>
   </nav>
 
   <ul class="grille">
@@ -120,6 +135,17 @@ const plantes = (niveauActif
   .niv-dot.niv-400::before { background: var(--niv-400); }
   .niv-dot.niv-600::before { background: var(--niv-600); }
   .filtres a.actif.niv-dot::before { background: var(--cream); }
+  /* filtre Sauvages de ma rue : même pastille, couleur distincte */
+  .sauvage-dot::before {
+    content: '';
+    display: inline-block;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    margin-right: 0.45rem;
+    vertical-align: 1px;
+    background: var(--madder);
+  }
+  .filtres a.actif.sauvage-dot::before { background: var(--cream); }
 
   .grille {
     list-style: none;

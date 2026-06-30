@@ -46,6 +46,19 @@ const niveauArg = args.find((x) => x.startsWith('--niveau=')) ?? (args[args.inde
 const niveaux = args.includes('--niveau')
   ? String(niveauArg).replace('--niveau=', '').split(',').map((n) => parseInt(n, 10)).filter(Boolean)
   : null;
+// --palier 1,2 : pour la liste "sauvages" (échelonnement par fréquence d'obs).
+const palierArg = args.find((x) => x.startsWith('--palier=')) ?? (args[args.indexOf('--palier') + 1] ?? '');
+const paliers = args.includes('--palier')
+  ? String(palierArg).replace('--palier=', '').split(',').map((n) => parseInt(n, 10)).filter(Boolean)
+  : null;
+// --input <fichier> : liste d'espèces (défaut : référentiel InfoFlora).
+const inputArg = args.find((x) => x.startsWith('--input=')) ?? (args[args.indexOf('--input') + 1] ?? '');
+const inputFile = args.includes('--input')
+  ? String(inputArg).replace('--input=', '')
+  : 'src/data/infoflora-600.json';
+// --source <tag> : provenance estampillée dans data.sources (défaut : infoflora).
+const sourceArg = args.find((x) => x.startsWith('--source=')) ?? (args[args.indexOf('--source') + 1] ?? '');
+const sourceTag = args.includes('--source') ? String(sourceArg).replace('--source=', '') : 'infoflora';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -77,8 +90,9 @@ const normLatin = (s) =>
     .trim();
 
 // --- liste d'espèces ---
-let especes = JSON.parse(readFileSync('src/data/infoflora-600.json', 'utf8'));
+let especes = JSON.parse(readFileSync(inputFile, 'utf8'));
 if (niveaux) especes = especes.filter((e) => niveaux.includes(e.niveau));
+if (paliers) especes = especes.filter((e) => paliers.includes(e.palier));
 if (randomN) especes = [...especes].sort(() => Math.random() - 0.5).slice(0, randomN);
 else if (limitN) especes = especes.slice(0, limitN);
 
@@ -158,7 +172,7 @@ console.log(`Espèces à traiter : ${especes.length}\n`);
 const aFaire = [];
 let avecImage = 0;
 
-for (const { latin_name, family, niveau } of especes) {
+for (const { latin_name, family, niveau, palier } of especes) {
   await sleep(300); // courtoisie envers l'API Wikimedia (évite le rate limit 429)
   const id = slugify(latin_name);
   let image_ref;
@@ -183,7 +197,9 @@ for (const { latin_name, family, niveau } of especes) {
   }
 
   if (!dry) {
-    const data = { classification: { famille: [family] }, niveau };
+    const data = { classification: { famille: [family] }, sources: [sourceTag] };
+    if (niveau != null) data.niveau = niveau;
+    if (palier != null) data.palier = palier;
     if (image_ref) {
       data.image_ref = image_ref;
       data.image_source = image_source;

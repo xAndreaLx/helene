@@ -1,0 +1,3383 @@
+[
+  {
+    "latin_name": "Abelia x",
+    "family": "Caprifoliaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Abies koreana",
+    "family": "Pinaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Acer negundo",
+    "family": "Aceraceae",
+    "obs": 21,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Achillea ptarmica",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Actinidia chinensis",
+    "family": "Actinidiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Adiantum capillus-veneris",
+    "family": "Pteridaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Aegilops geniculata",
+    "family": "Poaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Agrimonia eupatoria",
+    "family": "Rosaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ailanthus altissima",
+    "family": "Simaroubaceae",
+    "obs": 34,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Aira caryophyllea",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ajuga chamaepitys",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Alcea rosea",
+    "family": "Malvaceae",
+    "obs": 21,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Allium neapolitanum",
+    "family": "Amaryllidaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Allium porrum",
+    "family": "Amaryllidaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Allium vineale",
+    "family": "Amaryllidaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Alopecurus myosuroides",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Althaea officinalis",
+    "family": "Malvaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Amaranthus blitum",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Amaranthus deflexus",
+    "family": "Amaranthaceae",
+    "obs": 73,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Amaranthus hybridus",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Amaranthus retroflexus",
+    "family": "Amaranthaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ambrosia artemisiifolia",
+    "family": "Asteraceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anacyclus clavatus",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Andryala integrifolia",
+    "family": "Asteraceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anethum foeniculum",
+    "family": "Apiaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anisantha diandra",
+    "family": "Poaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anisantha madritensis",
+    "family": "Poaceae",
+    "obs": 45,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anisantha rigida",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anisantha sterilis",
+    "family": "Poaceae",
+    "obs": 33,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anisantha tectorum",
+    "family": "Poaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anthemis arvensis",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anthriscus caucalis",
+    "family": "Apiaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Anthriscus cerefolium",
+    "family": "Apiaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Antirrhinum majus",
+    "family": "Scrophulariaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Aphanes arvensis",
+    "family": "Rosaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Aptenia cordifolia",
+    "family": "Aizoaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Arabidopsis arenosa",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Arctium minus",
+    "family": "Asteraceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Arctium nemorosum",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Artemisia annua",
+    "family": "Asteraceae",
+    "obs": 15,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Artemisia verlotiorum",
+    "family": "Asteraceae",
+    "obs": 12,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Arum italicum",
+    "family": "Araceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Asparagus acutifolius",
+    "family": "Asparagaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Asparagus densiflorus",
+    "family": "Asparagaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Asphodelus fistulosus",
+    "family": "Asphodelaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Asplenium adiantum-nigrum",
+    "family": "Aspleniaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Asplenium sagittatum",
+    "family": "Aspleniaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Asplenium scolopendrium",
+    "family": "Aspleniaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Atriplex halimus",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Atriplex patula",
+    "family": "Chenopodiaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Avena barbata",
+    "family": "Poaceae",
+    "obs": 37,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Avena fatua",
+    "family": "Poaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Avena sativa",
+    "family": "Poaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ballota nigra",
+    "family": "Lamiaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Barbarea vulgaris",
+    "family": "Brassicaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Bellis annua",
+    "family": "Asteraceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Bellis sylvestris",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Berteroa incana",
+    "family": "Brassicaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Beta vulgaris",
+    "family": "Amaranthaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Bidens subalternans",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Bituminaria bituminosa",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Blackstonia imperfoliata",
+    "family": "Gentianaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Borago officinalis",
+    "family": "Boraginaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Borago pygmaea",
+    "family": "Boraginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Bothriochloa ischaemum",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Brachypodium retusum",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Brassica napus",
+    "family": "Brassicaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Brassica nigra",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Bromopsis erecta",
+    "family": "Poaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Broussonetia papyrifera",
+    "family": "Moraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Bryonia dioica",
+    "family": "Cucurbitaceae",
+    "obs": 16,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Buddleja albiflora",
+    "family": "Scrophulariaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Buddleja japonica",
+    "family": "Scrophulariaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Calamagrostis epigejos",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Calendula arvensis",
+    "family": "Asteraceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Calepina irregularis",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Callitriche stagnalis",
+    "family": "Plantaginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Campanula erinus",
+    "family": "Campanulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Campanula persicifolia",
+    "family": "Campanulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Campanula portenschlagiana",
+    "family": "Campanulaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Campanula rapunculus",
+    "family": "Campanulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Camphorosma monspeliaca",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Campsis radicans",
+    "family": "Bignoniaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Campsis x",
+    "family": "Bignoniaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cardamine flexuosa",
+    "family": "Brassicaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Carduus pycnocephalus",
+    "family": "Asteraceae",
+    "obs": 24,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Carex divulsa",
+    "family": "Cyperaceae",
+    "obs": 8,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Carpobrotus edulis",
+    "family": "Aizoaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Caryopteris x",
+    "family": "Lamiaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Catapodium rigidum",
+    "family": "Poaceae",
+    "obs": 14,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Celtis australis",
+    "family": "Cannabaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Celtis occidentalis",
+    "family": "Cannabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Centaurea diffusa",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Centaurium erythraea",
+    "family": "Gentianaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Centranthus ruber",
+    "family": "Valerianaceae",
+    "obs": 49,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cerastium glomeratum",
+    "family": "Caryophyllaceae",
+    "obs": 106,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cerastium pumilum",
+    "family": "Caryophyllaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ceratochloa cathartica",
+    "family": "Poaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cercis siliquastrum",
+    "family": "Fabaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ceterach officinarum",
+    "family": "Aspleniaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Chaerophyllum temulum",
+    "family": "Apiaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Chamaemelum nobile",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Chenopodiastrum hybridum",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Chenopodium ficifolium",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Chenopodium murale",
+    "family": "Chenopodiaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Chenopodium vulvaria",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Chimaphila maculata",
+    "family": "Ericaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Chondrilla juncea",
+    "family": "Asteraceae",
+    "obs": 31,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cichorium endivia",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cirsium filipendulum",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cirsium vulgare",
+    "family": "Asteraceae",
+    "obs": 70,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Clematis flammula",
+    "family": "Ranunculaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Clinopodium acinos",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Clinopodium nepeta",
+    "family": "Lamiaceae",
+    "obs": 18,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Convolvulus althaeoides",
+    "family": "Convolvulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Convolvulus sepium",
+    "family": "Convolvulaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Conyza bonariensis",
+    "family": "Asteraceae",
+    "obs": 12,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Conyza canadensis",
+    "family": "Asteraceae",
+    "obs": 67,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Conyza sumatrensis",
+    "family": "Asteraceae",
+    "obs": 123,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Coronilla valentina",
+    "family": "Fabaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Coronilla varia",
+    "family": "Fabaceae",
+    "obs": 19,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cotoneaster pannosus",
+    "family": "Rosaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Crepis albida",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Crepis bursifolia",
+    "family": "Asteraceae",
+    "obs": 77,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Crepis foetida",
+    "family": "Asteraceae",
+    "obs": 58,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Crepis pulchra",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Crepis sancta",
+    "family": "Asteraceae",
+    "obs": 85,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Crepis setosa",
+    "family": "Asteraceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Crepis vesicaria",
+    "family": "Asteraceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Crithmum maritimum",
+    "family": "Apiaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cruciata glabra",
+    "family": "Rubiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cyclamen hederifolium",
+    "family": "Primulaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cynodon dactylon",
+    "family": "Poaceae",
+    "obs": 42,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cyperus papyrus",
+    "family": "Cyperaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Cyperus serotinus",
+    "family": "Cyperaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Delosperma cooperi",
+    "family": "Aizoaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Delphinium ajacis",
+    "family": "Ranunculaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Digitalis lutea",
+    "family": "Plantaginaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Digitaria sanguinalis",
+    "family": "Poaceae",
+    "obs": 47,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Dimorphotheca pluvialis",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Diplotaxis erucoides",
+    "family": "Brassicaceae",
+    "obs": 22,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Diplotaxis muralis",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Diplotaxis tenuifolia",
+    "family": "Brassicaceae",
+    "obs": 35,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Dittrichia viscosa",
+    "family": "Asteraceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Draba muralis",
+    "family": "Brassicaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Duchesnea indica",
+    "family": "Rosaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ecballium elaterium",
+    "family": "Cucurbitaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Echinochloa crus-galli",
+    "family": "Poaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Eleusine indica",
+    "family": "Poaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Eleusine tristachya",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Elytrigia campestris",
+    "family": "Poaceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Elytrigia repens",
+    "family": "Poaceae",
+    "obs": 12,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Epilobium tetragonum",
+    "family": "Onagraceae",
+    "obs": 11,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Epipactis helleborine",
+    "family": "Orchidaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Equisetum ramosissimum",
+    "family": "Equisetaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Eragrostis minor",
+    "family": "Poaceae",
+    "obs": 40,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erigeron bonariensis",
+    "family": "Asteraceae",
+    "obs": 8,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erigeron canadensis",
+    "family": "Asteraceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erigeron floribundus",
+    "family": "Asteraceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erigeron karvinskianus",
+    "family": "Asteraceae",
+    "obs": 17,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erigeron sumatrensis",
+    "family": "Asteraceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erodium malacoides",
+    "family": "Geraniaceae",
+    "obs": 17,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erodium moschatum",
+    "family": "Geraniaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erophila verna",
+    "family": "Brassicaceae",
+    "obs": 28,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ervilia hirsuta",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Eryngium campestre",
+    "family": "Apiaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Erysimum cheiri",
+    "family": "Brassicaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Eschscholzia californica",
+    "family": "Papaveraceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Euphorbia characias",
+    "family": "Euphorbiaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Euphorbia lathyris",
+    "family": "Euphorbiaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Euphorbia maculata",
+    "family": "Euphorbiaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Euphorbia peplus",
+    "family": "Euphorbiaceae",
+    "obs": 140,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Euphorbia prostrata",
+    "family": "Euphorbiaceae",
+    "obs": 37,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Euphorbia segetalis",
+    "family": "Euphorbiaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Euphorbia serrata",
+    "family": "Euphorbiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Euryops pectinatus",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Falcaria vulgaris",
+    "family": "Apiaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Fallopia baldschuanica",
+    "family": "Polygonaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Fallopia convolvulus",
+    "family": "Polygonaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Fallopia japonica",
+    "family": "Polygonaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ferula glauca",
+    "family": "Apiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ficaria verna",
+    "family": "Ranunculaceae",
+    "obs": 11,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ficus carica",
+    "family": "Moraceae",
+    "obs": 41,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Foeniculum vulgare",
+    "family": "Apiaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Fraxinus angustifolia",
+    "family": "Oleaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Fumaria capreolata",
+    "family": "Papaveraceae",
+    "obs": 15,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Fumaria densiflora",
+    "family": "Papaveraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Fumaria officinalis",
+    "family": "Papaveraceae",
+    "obs": 31,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Gagea bohemica",
+    "family": "Liliaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Galinsoga parviflora",
+    "family": "Asteraceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Galinsoga quadriradiata",
+    "family": "Asteraceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Galium album",
+    "family": "Rubiaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Galium murale",
+    "family": "Rubiaceae",
+    "obs": 11,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Galium parisiense",
+    "family": "Rubiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Galium tricornutum",
+    "family": "Rubiaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Galium verrucosum",
+    "family": "Rubiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Geranium columbinum",
+    "family": "Geraniaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Geranium dissectum",
+    "family": "Geraniaceae",
+    "obs": 15,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Geranium lucidum",
+    "family": "Geraniaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Geranium macrorrhizum",
+    "family": "Geraniaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Geranium molle",
+    "family": "Geraniaceae",
+    "obs": 47,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Geranium purpureum",
+    "family": "Geraniaceae",
+    "obs": 8,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Geranium pusillum",
+    "family": "Geraniaceae",
+    "obs": 18,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Geum sylvaticum",
+    "family": "Rosaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Glebionis coronaria",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hedera canariensis",
+    "family": "Araliaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hedera colchica",
+    "family": "Araliaceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hedera hibernica",
+    "family": "Araliaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hedypnois rhagadioloides",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Helenium autumnale",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Heliotropium europaeum",
+    "family": "Heliotropaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hibiscus syriacus",
+    "family": "Malvaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hieracium amplexicaule",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Himantoglossum hircinum",
+    "family": "Orchidaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Himantoglossum robertianum",
+    "family": "Orchidaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Holosteum umbellatum",
+    "family": "Caryophyllaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hydrocotyle sibthorpioides",
+    "family": "Araliaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hylotelephium sieboldii",
+    "family": "Crassulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hyoscyamus albus",
+    "family": "Solanaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hyoseris radiata",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hypericum humifusum",
+    "family": "Hypericaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hypericum perfoliatum",
+    "family": "Hypericaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hypochaeris achyrophorus",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hypochaeris glabra",
+    "family": "Asteraceae",
+    "obs": 11,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Hypochaeris radicata",
+    "family": "Asteraceae",
+    "obs": 129,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Impatiens balfourii",
+    "family": "Balsaminaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ipomoea hederifolia",
+    "family": "Convolvulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ipomoea purpurea",
+    "family": "Convolvulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Iris pallida",
+    "family": "Iridaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Isatis tinctoria",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Isolepis setacea",
+    "family": "Cyperaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Jacobaea maritima",
+    "family": "Asteraceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Jasminum fruticans",
+    "family": "Oleaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Juncus tenuis",
+    "family": "Juncaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Juniperus phoenicea",
+    "family": "Cupressaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lactuca macrophylla",
+    "family": "Asteraceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lactuca sativa",
+    "family": "Asteraceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lactuca serriola",
+    "family": "Asteraceae",
+    "obs": 181,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lactuca virosa",
+    "family": "Asteraceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lagurus ovatus",
+    "family": "Poaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lamium amplexicaule",
+    "family": "Lamiaceae",
+    "obs": 47,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lamium hybridum",
+    "family": "Lamiaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lathyrus aphaca",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lathyrus latifolius",
+    "family": "Fabaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lathyrus odoratus",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lathyrus setifolius",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Laurus nobilis",
+    "family": "Lauraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lepidium didymum",
+    "family": "Brassicaceae",
+    "obs": 8,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lepidium draba",
+    "family": "Brassicaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lepidium graminifolium",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lepidium heterophyllum",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lepidium virginicum",
+    "family": "Brassicaceae",
+    "obs": 15,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Leycesteria formosa",
+    "family": "Caprifoliaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ligustrum sinense",
+    "family": "Oleaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Linaria repens",
+    "family": "Plantaginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Linaria simplex",
+    "family": "Plantaginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lipandra polysperma",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lithospermum officinale",
+    "family": "Boraginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lobularia maritima",
+    "family": "Brassicaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lonicera periclymenum",
+    "family": "Caprifoliaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lotus maritimus",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lychnis coronaria",
+    "family": "Caryophyllaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lychnis flos-jovis",
+    "family": "Caryophyllaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lycopsis arvensis",
+    "family": "Boraginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lysimachia europaea",
+    "family": "Primulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lysimachia nummularia",
+    "family": "Primulaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Lythrum salicaria",
+    "family": "Lythraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mahonia aquifolium",
+    "family": "Berberidaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Malva arborea",
+    "family": "Malvaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Malva nicaeensis",
+    "family": "Malvaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Malva parviflora",
+    "family": "Malvaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Malva setigera",
+    "family": "Malvaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Marrubium supinum",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Matricaria recutita",
+    "family": "Asteraceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Medicago arabica",
+    "family": "Fabaceae",
+    "obs": 17,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Medicago arborea",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Medicago minima",
+    "family": "Fabaceae",
+    "obs": 17,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Medicago orbicularis",
+    "family": "Fabaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Medicago polymorpha",
+    "family": "Fabaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Melica ciliata",
+    "family": "Poaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Melissa officinalis",
+    "family": "Lamiaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mentha arvensis",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mentha spicata",
+    "family": "Lamiaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mentha suaveolens",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mentha x",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mesembryanthemum nodiflorum",
+    "family": "Aizoaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Meum athamanticum",
+    "family": "Apiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mirabilis jalapa",
+    "family": "Nyctaginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Misopates orontium",
+    "family": "Plantaginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mollugo verticillata",
+    "family": "Molluginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Morus alba",
+    "family": "Moraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Muscari neglectum",
+    "family": "Asparagaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Mycelis muralis",
+    "family": "Asteraceae",
+    "obs": 31,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Myosotis ramosissima",
+    "family": "Boraginaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Nerium oleander",
+    "family": "Apocynaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Nicotiana glauca",
+    "family": "Solanaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Nigella damascena",
+    "family": "Ranunculaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Noccaea perfoliata",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Nothoscordum gracile",
+    "family": "Amaryllidaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Oenothera parviflora",
+    "family": "Onagraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Olea europaea",
+    "family": "Oleaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Oloptum miliaceum",
+    "family": "Poaceae",
+    "obs": 15,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ophiopogon planiscapus",
+    "family": "Asparagaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Opuntia ficus-indica",
+    "family": "Cactaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Orlaya grandiflora",
+    "family": "Apiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Orobanche hederae",
+    "family": "Orobanchaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Oxalis corniculata",
+    "family": "Oxalidaceae",
+    "obs": 154,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Oxalis dillenii",
+    "family": "Oxalidaceae",
+    "obs": 25,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Oxalis fontana",
+    "family": "Oxalidaceae",
+    "obs": 11,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Oxalis incarnata",
+    "family": "Oxalidaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Oxalis pes-caprae",
+    "family": "Oxalidaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Oxalis stricta",
+    "family": "Oxalidaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Pallenis maritima",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Panicum capillare",
+    "family": "Poaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Panicum miliaceum",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Papaver dubium",
+    "family": "Papaveraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Parietaria judaica",
+    "family": "Urticaceae",
+    "obs": 122,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Parietaria officinalis",
+    "family": "Urticaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Parthenocissus inserta",
+    "family": "Vitaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Parthenocissus quinquefolia",
+    "family": "Vitaceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Paspalum dilatatum",
+    "family": "Poaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Passiflora caerulea",
+    "family": "Passifloraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Pastinaca sativa",
+    "family": "Apiaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Paulownia tomentosa",
+    "family": "Scrophulariaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Petrorhagia prolifera",
+    "family": "Caryophyllaceae",
+    "obs": 12,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Petrorhagia saxifraga",
+    "family": "Caryophyllaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Petroselinum crispum",
+    "family": "Apiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Phedimus spurius",
+    "family": "Crassulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Phillyrea latifolia",
+    "family": "Oleaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Phytolacca americana",
+    "family": "Phytolaccaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Picris echioides",
+    "family": "Asteraceae",
+    "obs": 36,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Picris hieracioides",
+    "family": "Asteraceae",
+    "obs": 93,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Pilosella aurantiaca",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Pilosella cymosa",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Piptatherum miliaceum",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Pistacia lentiscus",
+    "family": "Anacardiaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Plantago argentea",
+    "family": "Plantaginaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Plantago coronopus",
+    "family": "Plantaginaceae",
+    "obs": 20,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Plantago lagopus",
+    "family": "Plantaginaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Plantago maritima",
+    "family": "Plantaginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Platanus x",
+    "family": "Platanaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Poa nemoralis",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Poa supina",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Podospermum laciniatum",
+    "family": "Asteraceae",
+    "obs": 6,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Polycarpon tetraphyllum",
+    "family": "Caryophyllaceae",
+    "obs": 43,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Populus x",
+    "family": "Salicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Portulaca oleracea",
+    "family": "Portulacaceae",
+    "obs": 57,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Potentilla anglica",
+    "family": "Rosaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Potentilla argentea",
+    "family": "Rosaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Potentilla indica",
+    "family": "Rosaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Potentilla recta",
+    "family": "Rosaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Potentilla verna",
+    "family": "Rosaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Poterium sanguisorba",
+    "family": "Rosaceae",
+    "obs": 11,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Primula vulgaris",
+    "family": "Primulaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Prunus japonica",
+    "family": "Rosaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Quercus ilex",
+    "family": "Fagaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ranunculus muricatus",
+    "family": "Ranunculaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ranunculus parviflorus",
+    "family": "Ranunculaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ranunculus tuberosus",
+    "family": "Ranunculaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Raphanus raphanistrum",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Reichardia picroides",
+    "family": "Asteraceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Reseda alba",
+    "family": "Resedaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Reseda lutea",
+    "family": "Resedaceae",
+    "obs": 12,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ribes alpinum",
+    "family": "Grossulariaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Ribes nigrum",
+    "family": "Grossulariaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rorippa amphibia",
+    "family": "Brassicaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rorippa palustris",
+    "family": "Brassicaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rostraria cristata",
+    "family": "Poaceae",
+    "obs": 19,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rubia peregrina",
+    "family": "Rubiaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rubus elegantispinosus",
+    "family": "Rosaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rumex conglomeratus",
+    "family": "Polygonaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rumex crispus",
+    "family": "Polygonaceae",
+    "obs": 34,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rumex patientia",
+    "family": "Polygonaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Rumex pulcher",
+    "family": "Polygonaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sabulina hybrida",
+    "family": "Caryophyllaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sabulina tenuifolia",
+    "family": "Caryophyllaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sagina apetala",
+    "family": "Caryophyllaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sagina procumbens",
+    "family": "Caryophyllaceae",
+    "obs": 104,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Salpichroa origanifolia",
+    "family": "Solanaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Salvia abrotanoides",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Salvia microphylla",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Salvia rosmarinus",
+    "family": "Lamiaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Salvia verbenaca",
+    "family": "Lamiaceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Samolus valerandi",
+    "family": "Primulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Saxifraga granulata",
+    "family": "Saxifragaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Saxifraga tridactylites",
+    "family": "Saxifragaceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Scabiosa atropurpurea",
+    "family": "Caprifoliaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Scandix pecten-veneris",
+    "family": "Apiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Scrophularia peregrina",
+    "family": "Scrophulariaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sedum dasyphyllum",
+    "family": "Crassulaceae",
+    "obs": 14,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sedum forsterianum",
+    "family": "Crassulaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sedum ochroleucum",
+    "family": "Crassulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sedum rupestre",
+    "family": "Crassulaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sedum sediforme",
+    "family": "Crassulaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Senecio erucifolius",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Senecio inaequidens",
+    "family": "Asteraceae",
+    "obs": 64,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Senecio jacobaea",
+    "family": "Asteraceae",
+    "obs": 10,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Senecio leucanthemifolius",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Senecio sylvaticus",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Senecio viscosus",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Setaria italica",
+    "family": "Poaceae",
+    "obs": 55,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Setaria pumila",
+    "family": "Poaceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Setaria verticillata",
+    "family": "Poaceae",
+    "obs": 21,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sherardia arvensis",
+    "family": "Rubiaceae",
+    "obs": 15,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Silene latifolia",
+    "family": "Caryophyllaceae",
+    "obs": 19,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Silene noctiflora",
+    "family": "Caryophyllaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Silybum marianum",
+    "family": "Asteraceae",
+    "obs": 8,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sisymbrium irio",
+    "family": "Brassicaceae",
+    "obs": 19,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sisymbrium officinale",
+    "family": "Brassicaceae",
+    "obs": 12,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sixalix atropurpurea",
+    "family": "Dipsacaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Smyrnium olusatrum",
+    "family": "Apiaceae",
+    "obs": 8,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Solanum lycopersicum",
+    "family": "Solanaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Solanum nigrum",
+    "family": "Solanaceae",
+    "obs": 25,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Soleirolia soleirolii",
+    "family": "Urticaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sonchus arvensis",
+    "family": "Asteraceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sonchus asper",
+    "family": "Asteraceae",
+    "obs": 47,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sonchus tenerrimus",
+    "family": "Asteraceae",
+    "obs": 47,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sorghum halepense",
+    "family": "Poaceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Spergula rubra",
+    "family": "Caryophyllaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Spinacia oleracea",
+    "family": "Amaranthaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Sporobolus indicus",
+    "family": "Poaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Stachys byzantina",
+    "family": "Lamiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Stellaria holostea",
+    "family": "Caryophyllaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Stellaria pallida",
+    "family": "Caryophyllaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Styphnolobium japonicum",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Symphyotrichum lanceolatum",
+    "family": "Asteraceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Symphyotrichum subulatum",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Syringa vulgaris",
+    "family": "Oleaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Tamarix gallica",
+    "family": "Tamaricaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Tanacetum parthenium",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Tanacetum vulgare",
+    "family": "Asteraceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Taraxacum campylodes",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Taraxacum clemens",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Taraxacum dissectum",
+    "family": "Asteraceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Taraxacum erythrospermum",
+    "family": "Asteraceae",
+    "obs": 12,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Taraxacum mattmarkense",
+    "family": "Asteraceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Thalictrum minus",
+    "family": "Ranunculaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Theligonum cynocrambe",
+    "family": "Rubiaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Tilia tomentosa",
+    "family": "Malvaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Tordylium maximum",
+    "family": "Apiaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Torilis arvensis",
+    "family": "Apiaceae",
+    "obs": 26,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Torilis japonica",
+    "family": "Apiaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Torilis nodosa",
+    "family": "Apiaceae",
+    "obs": 9,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Tragus racemosus",
+    "family": "Poaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Trifolium campestre",
+    "family": "Fabaceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Trifolium subterraneum",
+    "family": "Fabaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Trigonella alba",
+    "family": "Fabaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Triticum aestivum",
+    "family": "Poaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Tyrimnus leucographus",
+    "family": "Asteraceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Umbilicus horizontalis",
+    "family": "Crassulaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Umbilicus rupestris",
+    "family": "Crassulaceae",
+    "obs": 12,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Urospermum dalechampii",
+    "family": "Asteraceae",
+    "obs": 19,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Urospermum picroides",
+    "family": "Asteraceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Urtica urens",
+    "family": "Urticaceae",
+    "obs": 11,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vaccaria hispanica",
+    "family": "Caryophyllaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Verbascum blattaria",
+    "family": "Scrophulariaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Verbascum boerhavii",
+    "family": "Scrophulariaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Verbascum densiflorum",
+    "family": "Scrophulariaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Verbascum phlomoides",
+    "family": "Scrophulariaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Verbascum sinuatum",
+    "family": "Scrophulariaceae",
+    "obs": 5,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Veronica agrestis",
+    "family": "Plantaginaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Veronica cymbalaria",
+    "family": "Scrophulariaceae",
+    "obs": 22,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Veronica montana",
+    "family": "Plantaginaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Veronica polita",
+    "family": "Plantaginaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Veronica serpyllifolia",
+    "family": "Scrophulariaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Veronica sublobata",
+    "family": "Plantaginaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Viburnum tinus",
+    "family": "Adoxaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vicia dasycarpa",
+    "family": "Fabaceae",
+    "obs": 4,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vicia hirsuta",
+    "family": "Fabaceae",
+    "obs": 8,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vicia hybrida",
+    "family": "Fabaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vicia pannonica",
+    "family": "Fabaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vicia segetalis",
+    "family": "Fabaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vinca difformis",
+    "family": "Apocynaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vinca major",
+    "family": "Apocynaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Viola adunca",
+    "family": "Violaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Viola alba",
+    "family": "Violaceae",
+    "obs": 2,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Viola odorata",
+    "family": "Violaceae",
+    "obs": 41,
+    "palier": 1,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Viola riviniana",
+    "family": "Violaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vitis rotundifolia",
+    "family": "Vitaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vitis vinifera",
+    "family": "Vitaceae",
+    "obs": 1,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vulpia alopecuros",
+    "family": "Poaceae",
+    "obs": 3,
+    "palier": 3,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Vulpia myuros",
+    "family": "Poaceae",
+    "obs": 7,
+    "palier": 2,
+    "source": "sauvages"
+  },
+  {
+    "latin_name": "Xanthoselinum alsaticum",
+    "family": "Apiaceae",
+    "obs": 14,
+    "palier": 2,
+    "source": "sauvages"
+  }
+]
